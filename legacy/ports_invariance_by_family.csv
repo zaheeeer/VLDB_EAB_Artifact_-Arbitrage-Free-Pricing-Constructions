@@ -1,0 +1,10 @@
+mechanism,answer_cells,flat,rows_x_log_support,support_rows
+uniform,0.4646,0.6457,0.4211,0.3318
+size_proportional,0.2469,0.0154,0.2964,0.1725
+compute_metered,0.4406,0.2441,0.4097,0.3399
+qirana_uniform_gain,0.2228,0.0188,0.2285,0.2557
+qirana_shannon,0.244,0.0208,0.2889,0.2801
+qirana_weighted_coverage,0.2228,0.0188,0.2285,0.2557
+querymarket_viewcover,0.2312,0.0192,0.2734,0.261
+monotone_constrained,0.4772,0.5492,0.4695,0.3949
+monopoly_per_asset,0.4629,0.5965,0.4415,0.3637

@@ -1,0 +1,3 @@
+sampling,support_rows,assets_priceable,median_conflict_set,distinct_price_levels,build_seconds
+size_proportional (as specified),1000,83,0,7,25
+readership_weighted,1000,165,78,39,2043
