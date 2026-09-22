@@ -1,6 +1,0 @@
-files 20 | labels 18 | refs 28 | cites 42 | figures 2 | sections still stubbed 0
-
-1 problem(s):
-  sections/02_related_work: \ref{sec:protocol} has no \label
-
-exit_code=1
