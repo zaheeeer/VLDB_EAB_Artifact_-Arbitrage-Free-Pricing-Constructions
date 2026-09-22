@@ -1,6 +1,0 @@
-manuscript_location,claim,experiment_version,file,row_filter,formula,denominator,rounding,status
-Abstract,uniform bundle pricing earns 0.476 and 0.609 of the per-asset monopoly benchmark,V8_legacy,full_cross_workload.csv,mechanism==chawla_ubp,revenue_strategic_norm,per-asset monopoly,3 decimal,pending_full_rerun
-Abstract,returning welfare of 1.083 and 1.289,V8_legacy,full_cross_workload.csv,mechanism==chawla_ubp,welfare_strategic_norm,per-asset monopoly,3 decimal,pending_full_rerun
-Abstract,0.181/0.363 revenue and 1.376/1.509 welfare for information-proportional constructions,V8_legacy,full_cross_workload.csv,"mechanism IN (qirana_weighted_coverage, qirana_uniform_gain)","revenue_strategic_norm, welfare_strategic_norm",per-asset monopoly,3 decimal,pending_full_rerun
-Abstract,"Conflict-set containment falsified 43 of 2,047 claimed derivability edges",V8_legacy,falsified_derivability_edges.csv,N/A,count of edges,2047,integer,pending_full_rerun
-Abstract,prices 165 at 39 levels for 82 times the build cost,V8_legacy,support_sampling_comparison.csv,sampling==readership_weighted,"assets_priceable, distinct_price_levels, build_seconds ratio",size proportional,integer,pending_full_rerun
