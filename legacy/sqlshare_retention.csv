@@ -1,8 +1,0 @@
-stage,n,pct_of_corpus
-queries in release,11121,1.0
-references at least one relation,9420,0.847
-all relations resolvable,6398,0.5753
-resolvable and distinct,5161,0.4641
-resolvable with WHERE,2661,0.2393
-resolvable with aggregate,1012,0.091
-resolvable with GROUP BY and aggregate,592,0.0532

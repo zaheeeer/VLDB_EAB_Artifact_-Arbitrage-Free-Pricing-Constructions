@@ -1,7 +1,0 @@
-mechanism,answer_cells,flat,rows_x_log_support,support_rows
-uniform,0.2114,0.686,0.1948,0.2428
-size_proportional,0.3034,0.0364,0.4073,0.1884
-support_set,0.2916,0.0379,0.2782,0.2822
-compute_metered,0.2549,0.2414,0.2348,0.283
-monotone_constrained,0.3914,0.5665,0.4367,0.3609
-monopoly_per_asset,0.3463,0.6378,0.3325,0.3516

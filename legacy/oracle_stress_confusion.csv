@@ -1,3 +1,0 @@
-test,scale,pairs,tp,fp,fn,precision,recall
-candidate rule confusion,120 assets,14280,306,0,0,1.0,1.0
-candidate rule confusion,200 assets,39800,509,0,0,1.0,1.0

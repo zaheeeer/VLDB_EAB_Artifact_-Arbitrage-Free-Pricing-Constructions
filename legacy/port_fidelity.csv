@@ -1,5 +1,0 @@
-,source,faithful,deviation
-qirana_weighted_coverage,"Deep and Koutris, SIGMOD 2017",support set of single-row neighbours; weighted coverage over the distinguished set,"neighbours are deletions only, not the one-or-two-row modifications of the paper; support-set size is a parameter we sweep rather than the paper's default"
-qirana_uniform_gain,"Deep and Koutris, SIGMOD 2017",uniform gain over the same support set,as above
-qirana_shannon,"Deep and Koutris, SIGMOD 2017",Shannon-entropy pricing function over the distinguished fraction,as above; entropy is taken over the distinguished/undistinguished split of the support set
-querymarket_viewcover,"Koutris et al., PODS 2012 and JACM 2015","price is the cheapest determining subset of seller-priced views, solved exactly as an ILP","explicit prices are placed on selection views only, which is the paper's own tractable restriction; the view set is the per-month spine rather than a seller's catalogue"
