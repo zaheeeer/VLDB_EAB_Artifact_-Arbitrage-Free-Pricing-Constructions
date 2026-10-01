@@ -1,0 +1,26 @@
+\begin{table}[t]
+  \centering
+  \caption{Generalization gap $\Gamma$ (Equation~\eqref{eq:gap}): fraction of training revenue lost on held-out buyers; negative values are gains.}
+  \label{tab:generalization}
+  \begin{tabular}{lcc}
+    \toprule
+    mechanism & \tpch{} & \sqlshare{} \\
+    \midrule
+    flat fee (= UBP) & +0.102 & -0.108 \\
+    size proportional & +0.072 & -0.139 \\
+    compute metered & +0.097 & -0.313 \\
+    per-asset monopoly & +0.537 & +0.470 \\
+    monotone fitted & +0.470 & +0.411 \\
+    \qirana{} weighted coverage & +0.135 & -0.060 \\
+    \qirana{} uniform gain & +0.135 & -0.060 \\
+    \qirana{} entropy & +0.093 & -0.056 \\
+    \querymarket{} view cover$^{\dagger}$ & +0.083 & +0.091 \\
+    uniform bundle (UBP) & +0.108 & -0.051 \\
+    uniform item (UIP) & +0.163 & +0.121 \\
+    LP item (LPIP) & +0.667 & +0.058 \\
+    capacity item (CIP) & +0.428 & +0.013 \\
+    layering & +0.492 & +0.108 \\
+    XOS & +0.420 & +0.019 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

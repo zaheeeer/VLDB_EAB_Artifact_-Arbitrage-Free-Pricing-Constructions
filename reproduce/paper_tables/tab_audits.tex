@@ -1,0 +1,28 @@
+\begin{table*}[t]
+  \centering
+  \caption{Arbitrage audits of Equation~\eqref{eq:audits}: rates $r_{\mathrm{I}}$ and $r_{\mathrm{C}}$ and maximum gain. Every \sqlshare{} combination violation rests on a re-executed plan; \tpch{} re-execution is capped (Section~\ref{sec:adversary}).}
+  \label{tab:audits}
+  \begin{tabular}{lcccccc}
+    \toprule
+    mechanism & \multicolumn{2}{c}{information arb.} & \multicolumn{2}{c}{combination arb.} & \multicolumn{2}{c}{max gain} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+    & \tpch{} & \sqlshare{} & \tpch{} & \sqlshare{} & \tpch{} & \sqlshare{} \\
+    \midrule
+    flat fee (= UBP) & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
+    size proportional & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
+    compute metered & 0.150 & 0.452 & 0.014 & 0.347 & 0.181 & 0.985 \\
+    per-asset monopoly & 0.224 & 0.337 & 0.168 & 0.349 & 0.915 & 0.958 \\
+    monotone fitted & 0.000 & 0.000 & 0.028 & 0.000 & 0.574 & 0.069 \\
+    \qirana{} weighted coverage & 0.000 & 0.006 & 0.000 & 0.005 & 0.000 & 1.000 \\
+    \qirana{} uniform gain & 0.000 & 0.006 & 0.000 & 0.005 & 0.000 & 1.000 \\
+    \qirana{} entropy & 0.000 & 0.006 & 0.000 & 0.005 & 0.000 & 1.000 \\
+    \querymarket{} view cover$^{\dagger}$ & 0.000 & 0.001 & 0.000 & 0.000 & 0.000 & 0.000 \\
+    uniform bundle (UBP) & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
+    uniform item (UIP) & 0.000 & 0.006 & 0.000 & 0.005 & 0.000 & 1.000 \\
+    LP item (LPIP) & 0.000 & 0.002 & 0.000 & 0.002 & 0.000 & 0.500 \\
+    capacity item (CIP) & 0.000 & 0.008 & 0.000 & 0.004 & 0.000 & 0.900 \\
+    layering & 0.000 & 0.003 & 0.000 & 0.002 & 0.000 & 0.500 \\
+    XOS & 0.000 & 0.005 & 0.000 & 0.004 & 0.000 & 0.900 \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
