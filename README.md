@@ -13,7 +13,6 @@ SQLShare query log, and measures how ten evaluation choices change the results.
 
 | folder | what it holds |
 |---|---|
-| `reproduce/` | `make_tables.py` rebuilds Tables 4 to 9, the Figure 2 data, and 86 numbers quoted in the text from the result records, and checks each against the value printed in the paper (`reproduce/expected_values.csv`); `make_figures.py` draws Figures 1 and 2 |
 | `results/tpch/` | TPC-H records: 300 runs (4 valuation families x 5 seeds x 15 mechanisms) and the oracle stress test |
 | `results/sqlshare/` | SQLShare records: `paper/` (the setting of Table 2, used in Sections 5.1 and 5.2), `corrected/` (every alternative of Table 2 on), and `ablation/` (the 30 configurations of Section 5.3) |
 | `sqlshare/` | the SQLShare pipeline: download, load, lattice, falsification, samplers, all mechanisms, per-market runs, sensitivity analysis; 68 tests ([sqlshare/README.md](sqlshare/README.md)) |
