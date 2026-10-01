@@ -1,0 +1,236 @@
+{
+  "protocol": "paper",
+  "settings": {
+    "protocol": "paper",
+    "root": ".",
+    "zip_url": "https://shrquerylogs.s3.amazonaws.com/public/sqlshare_data_release1.zip",
+    "zip_path": "data\\sqlshare_data_release1.zip",
+    "min_component_queries": 50,
+    "max_component_gb": 2.0,
+    "min_lattice_survivors": 20,
+    "row_cap": 50000,
+    "cover_target_cap": 2000,
+    "query_timeout_s": 3600.0,
+    "curve_checkpoints": [
+      400,
+      2000,
+      10000,
+      30000
+    ],
+    "curve_seed": 11,
+    "witness_n": 4000,
+    "witness_seed": 11,
+    "table6_n": 1000,
+    "table6_seed": 101,
+    "run_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_buyers": 800,
+    "max_lps": 60,
+    "cip_eps": 0.5,
+    "ilp_time_limit": 5.0,
+    "market_support_n": 300,
+    "market_seed": 4242,
+    "market_buyers": 400,
+    "market_seeds": [
+      0,
+      1,
+      2
+    ],
+    "market_families": [
+      "support_rows",
+      "answer_cells"
+    ],
+    "market_max_lps": 25,
+    "market_min_assets": 8,
+    "demand": "redraw",
+    "shift_arm": false,
+    "fit": "grid60",
+    "entropy": "singleton",
+    "selection": "value_set",
+    "querymarket": "single_predecessor",
+    "answer_cells": "rows",
+    "market_support_family": "rows",
+    "row_sampling": "unique_only",
+    "remove_falsified": "curve",
+    "alias_delete": "skip",
+    "market_tables": "all_readers",
+    "metered_repeats": 1,
+    "report_sd": "pooled",
+    "full_protocol_markets": false,
+    "workers": 0,
+    "threads": 0,
+    "duckdb_threads": 0,
+    "memory_limit": "",
+    "pool_stall_s": 1800.0,
+    "quick": false,
+    "extra": {}
+  },
+  "prepare": {
+    "release": {
+      "path": "data\\sqlshare_data_release1.zip",
+      "bytes": 3646871470,
+      "entries": 3435,
+      "unpacked_bytes": 25402217383,
+      "sha256": "ec4d02d247db9a8049d23d9082db2bd3de27135754f850aa8061bcdbb626055e"
+    },
+    "components_total": 568,
+    "components_selected": 21,
+    "queries_selected": 2660,
+    "files_extracted": 502,
+    "files_loaded": 502,
+    "rows_loaded": 26823002,
+    "aliases": 1392,
+    "views_needed": 803,
+    "views_created": 253,
+    "survivors": 975,
+    "timings_s": {
+      "parse release": 0.68,
+      "select markets": 0.39,
+      "extract 502 files": 12.31,
+      "load tables": 203.12,
+      "create aliases": 3.53,
+      "create views": 9.48,
+      "bind and execute selected queries": 60.17
+    },
+    "environment": {
+      "python": "3.12.10",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "machine": "AMD64",
+      "cpu_count": 12,
+      "duckdb": "1.5.5",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "sqlglot": "30.18.0"
+    },
+    "duckdb_extensions_loaded": [
+      "core_functions",
+      "icu",
+      "json",
+      "parquet"
+    ]
+  },
+  "funnel": [
+    {
+      "stage": "queries in release",
+      "n": 11121,
+      "pct_of_corpus": 1.0,
+      "expected_V13": 11121
+    },
+    {
+      "stage": "all relations resolvable",
+      "n": 6398,
+      "pct_of_corpus": 0.5753,
+      "expected_V13": 6398
+    },
+    {
+      "stage": "in a selected market component",
+      "n": 2660,
+      "pct_of_corpus": 0.2392,
+      "expected_V13": 2660
+    },
+    {
+      "stage": "transpiled to DuckDB",
+      "n": 2506,
+      "pct_of_corpus": 0.2253,
+      "expected_V13": 2506
+    },
+    {
+      "stage": "binds against loaded schema",
+      "n": 1135,
+      "pct_of_corpus": 0.1021,
+      "expected_V13": 1135
+    },
+    {
+      "stage": "executes successfully",
+      "n": 1051,
+      "pct_of_corpus": 0.0945,
+      "expected_V13": 1051
+    },
+    {
+      "stage": "returns a non-empty answer",
+      "n": 975,
+      "pct_of_corpus": 0.0877,
+      "expected_V13": 975
+    }
+  ],
+  "lattice": {
+    "markets_structural": 15,
+    "survivors_covered": 947,
+    "materialized_assets": 806,
+    "pairs_attempted": 8111,
+    "verified_pairs": 2969,
+    "pairs_per_asset": 3.68,
+    "family_counts": {
+      "projection": 2121,
+      "selection": 826,
+      "rollup": 22
+    },
+    "family_share_pct": {
+      "projection": 71.4,
+      "selection": 27.8,
+      "rollup": 0.7
+    },
+    "markets_with_structure": 14,
+    "row_cap_exclusions": 119,
+    "survivors_total": 975
+  },
+  "main": {
+    "cid": 474,
+    "rank": 1,
+    "survivors": 234,
+    "assets": 222,
+    "claimed_edges": 2047,
+    "falsified_curve": 33,
+    "witnessed": 20,
+    "falsified_by_pricing_support": 12,
+    "false_edges_total": 45,
+    "false_edge_rate_pct": 2.2,
+    "clean_pairs_used": 2014,
+    "corr_size_vs_readership": -0.088,
+    "zero_priced_readership": 60,
+    "cover_targets": 151,
+    "querymarket_catalogue": 105,
+    "build_cost_ratio": 113.0,
+    "main_arm": "published",
+    "plans_verified": 3228,
+    "plans_failed": 12,
+    "plans_failed_by_mechanism": {
+      "chawla_layering": 8,
+      "chawla_lpip": 4
+    },
+    "plans_verified_all_arms": 3228,
+    "alpha_at_grid_max_share": 0.23666666666666666,
+    "neighbour_draws": {
+      "curve": 33004,
+      "witness": 4401,
+      "size": 1114,
+      "readership": 1391
+    },
+    "timings_s": {
+      "support set: size-proportional, 30000 neighbours (curve)": 178.18,
+      "witness search, 4000 neighbours": 1.61,
+      "support set: size-proportional, 1000 neighbours": 5.47,
+      "support set: readership-weighted, 1000 neighbours": 621.61,
+      "cover structure": 4.23,
+      "fit, freeze, and evaluate runs": 76.57
+    }
+  },
+  "markets": {
+    "markets_ok": 15,
+    "markets_too_small": 6,
+    "assets": 812,
+    "pairs": 2971,
+    "falsified": 42,
+    "markets_with_falsified": 4,
+    "welfare_wins_published": 15,
+    "revenue_wins_flat": 13,
+    "zero_priced_median_pct": 31.7,
+    "markets_all_zero_priced": 4
+  }
+}

@@ -1,0 +1,16 @@
+arm,mechanism,plans_verified,plans_failed
+published,chawla_cip,18,0
+published,chawla_layering,10,8
+published,chawla_lpip,10,4
+published,chawla_ubp,0,0
+published,chawla_uip,20,0
+published,chawla_xos,18,0
+published,compute_metered,1540,0
+published,monopoly_per_asset,1550,0
+published,monotone_constrained,2,0
+published,qirana_shannon,20,0
+published,qirana_uniform_gain,20,0
+published,qirana_weighted_coverage,20,0
+published,querymarket_viewcover,0,0
+published,size_proportional,0,0
+published,uniform,0,0

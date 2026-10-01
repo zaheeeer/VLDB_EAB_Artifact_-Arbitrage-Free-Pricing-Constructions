@@ -1,0 +1,41 @@
+{
+  "cid": 474,
+  "rank": 1,
+  "survivors": 234,
+  "assets": 222,
+  "claimed_edges": 1902,
+  "falsified_curve": 4,
+  "witnessed": 4,
+  "falsified_by_pricing_support": 10,
+  "false_edges_total": 14,
+  "false_edge_rate_pct": 0.74,
+  "clean_pairs_used": 1888,
+  "corr_size_vs_readership": -0.093,
+  "zero_priced_readership": 40,
+  "cover_targets": 151,
+  "querymarket_catalogue": 105,
+  "build_cost_ratio": 55.4,
+  "main_arm": "stationary",
+  "plans_verified": 3239,
+  "plans_failed": 5,
+  "plans_failed_by_mechanism": {
+    "chawla_layering": 2,
+    "chawla_lpip": 3
+  },
+  "plans_verified_all_arms": 6478,
+  "alpha_at_grid_max_share": 0.0,
+  "neighbour_draws": {
+    "curve": 30000,
+    "witness": 4000,
+    "size": 1000,
+    "readership": 1000
+  },
+  "timings_s": {
+    "support set: size-proportional, 30000 neighbours (curve)": 474.77,
+    "witness search, 4000 neighbours": 1.57,
+    "support set: size-proportional, 1000 neighbours": 16.95,
+    "support set: readership-weighted, 1000 neighbours": 941.04,
+    "cover structure": 4.27,
+    "fit, freeze, and evaluate runs": 108.42
+  }
+}

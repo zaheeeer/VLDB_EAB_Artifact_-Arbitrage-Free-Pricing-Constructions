@@ -1,0 +1,12 @@
+{
+  "markets_ok": 15,
+  "markets_too_small": 6,
+  "assets": 812,
+  "pairs": 2971,
+  "falsified": 42,
+  "markets_with_falsified": 4,
+  "welfare_wins_published": 15,
+  "revenue_wins_flat": 13,
+  "zero_priced_median_pct": 31.7,
+  "markets_all_zero_priced": 4
+}

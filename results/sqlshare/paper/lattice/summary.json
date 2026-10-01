@@ -1,0 +1,21 @@
+{
+  "markets_structural": 15,
+  "survivors_covered": 947,
+  "materialized_assets": 806,
+  "pairs_attempted": 8111,
+  "verified_pairs": 2969,
+  "pairs_per_asset": 3.68,
+  "family_counts": {
+    "projection": 2121,
+    "selection": 826,
+    "rollup": 22
+  },
+  "family_share_pct": {
+    "projection": 71.4,
+    "selection": 27.8,
+    "rollup": 0.7
+  },
+  "markets_with_structure": 14,
+  "row_cap_exclusions": 119,
+  "survivors_total": 975
+}

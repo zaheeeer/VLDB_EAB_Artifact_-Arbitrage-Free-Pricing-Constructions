@@ -1,0 +1,31 @@
+configuration,base,switch,direction,changed_settings,main_arm
+paper,paper,,end point,,published
+corrected,corrected,,end point,,stationary
+add_C04_demand,paper,C04_demand,add,demand: redraw -> shared,stationary
+drop_C04_demand,corrected,C04_demand,drop,demand: shared -> redraw; shift_arm: True -> False,published
+add_C05_fit,paper,C05_fit,add,fit: grid60 -> breakpoints,published
+drop_C05_fit,corrected,C05_fit,drop,fit: breakpoints -> grid60,stationary
+add_C06_entropy,paper,C06_entropy,add,entropy: singleton -> exact,published
+drop_C06_entropy,corrected,C06_entropy,drop,entropy: exact -> singleton,stationary
+add_C07_selection,paper,C07_selection,add,selection: value_set -> predicate,published
+drop_C07_selection,corrected,C07_selection,drop,selection: predicate -> value_set,stationary
+add_C09_querymarket,paper,C09_querymarket,add,querymarket: single_predecessor -> cover,published
+drop_C09_querymarket,corrected,C09_querymarket,drop,querymarket: cover -> single_predecessor,stationary
+add_C11_answer_cells,paper,C11_answer_cells,add,answer_cells: rows -> rows_x_cols,published
+drop_C11_answer_cells,corrected,C11_answer_cells,drop,answer_cells: rows_x_cols -> rows,stationary
+add_C12_row_sampling,paper,C12_row_sampling,add,row_sampling: unique_only -> any_row,published
+drop_C12_row_sampling,corrected,C12_row_sampling,drop,row_sampling: any_row -> unique_only,stationary
+add_alias_resolve,paper,alias_resolve,add,alias_delete: skip -> resolve,published
+drop_alias_resolve,corrected,alias_resolve,drop,alias_delete: resolve -> skip,stationary
+add_remove_all_falsified,paper,remove_all_falsified,add,remove_falsified: curve -> all,published
+drop_remove_all_falsified,corrected,remove_all_falsified,drop,remove_falsified: all -> curve,stationary
+add_metered_x3,paper,metered_x3,add,metered_repeats: 1 -> 3,published
+drop_metered_x3,corrected,metered_x3,drop,metered_repeats: 3 -> 1,stationary
+add_witness_seed,paper,witness_seed,add,witness_seed: 11 -> 12,published
+drop_witness_seed,corrected,witness_seed,drop,witness_seed: 12 -> 11,stationary
+add_ilp_formulation,paper,ilp_formulation,add,ilp_formulation:  -> cheaper_sources,published
+drop_ilp_formulation,corrected,ilp_formulation,drop,ilp_formulation:  -> all_sources,stationary
+paper_seedset1,paper,,seed set,curve_seed: 11 -> 1011; witness_seed: 11 -> 1011; table6_seed: 101 -> 1101,published
+corrected_seedset1,corrected,,seed set,curve_seed: 11 -> 1011; witness_seed: 12 -> 1012; table6_seed: 101 -> 1101,stationary
+paper_seedset2,paper,,seed set,curve_seed: 11 -> 2011; witness_seed: 11 -> 2011; table6_seed: 101 -> 2101,published
+corrected_seedset2,corrected,,seed set,curve_seed: 11 -> 2011; witness_seed: 12 -> 2012; table6_seed: 101 -> 2101,stationary

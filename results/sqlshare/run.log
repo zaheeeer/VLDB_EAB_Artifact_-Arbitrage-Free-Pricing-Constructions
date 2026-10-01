@@ -1,0 +1,1408 @@
+00:32:05 INFO sqlshare_rerun | command all | protocols ['paper', 'corrected'] | {'python': '3.12.10', 'platform': 'Windows-11-10.0.26200-SP0', 'machine': 'AMD64', 'cpu_count': 12, 'duckdb': '1.5.5', 'numpy': '2.3.5', 'pandas': '2.2.3', 'scipy': '1.17.0', 'sqlglot': '30.18.0'}
+00:32:05 INFO folder E:\EAB_ReRun_29_Sep\sqlshare_rerun | workers 11 | sampling threads 12
+00:32:05 INFO zip index: 3435 entries, 25.40 GB unpacked; computing SHA-256 once for the record
+00:32:14 INFO release SHA-256 ec4d02d247db9a8049d23d9082db2bd3de27135754f850aa8061bcdbb626055e
+00:32:14 INFO parse release ...
+00:32:15 INFO parse release done in 0.7 s
+00:32:15 INFO queries 11121 | resolvable 6398 | views 4032
+00:32:15 INFO select markets ...
+00:32:15 INFO select markets done in 0.4 s
+00:32:15 INFO components 568 | selected 21 with 2660 queries | views needed 803
+00:32:15 INFO extract 502 files ...
+00:32:27 INFO extract 502 files done in 12.3 s
+00:32:27 INFO load tables ...
+00:32:50 INFO loaded owner 1002 (1/14), 6 files so far, 23 s
+00:32:58 INFO loaded owner 1059 (2/14), 28 files so far, 31 s
+00:32:58 INFO loaded owner 1079 (3/14), 29 files so far, 31 s
+00:34:08 INFO loaded owner 1123 (4/14), 77 files so far, 100 s
+00:34:16 INFO loaded owner 1143 (5/14), 82 files so far, 108 s
+00:34:18 INFO loaded owner 1267 (6/14), 84 files so far, 111 s
+00:34:19 INFO loaded owner 1307 (7/14), 89 files so far, 111 s
+00:34:20 INFO loaded owner 277 (8/14), 91 files so far, 112 s
+00:34:25 INFO loaded owner 354 (9/14), 92 files so far, 117 s
+00:34:28 INFO loaded owner 372 (10/14), 94 files so far, 121 s
+00:35:27 INFO loaded owner 412 (11/14), 379 files so far, 180 s
+00:35:43 INFO loaded owner 446 (12/14), 458 files so far, 196 s
+00:35:43 INFO loaded owner 813 (13/14), 459 files so far, 196 s
+00:35:51 INFO loaded owner 826 (14/14), 502 files so far, 203 s
+00:35:51 INFO load tables done in 203.1 s
+00:35:51 INFO loaded 502/502 files, 26,823,002 rows
+00:35:51 INFO create aliases ...
+00:35:54 INFO create aliases done in 3.5 s
+00:35:54 INFO create views ...
+00:36:04 INFO create views done in 9.5 s
+00:36:04 INFO views 253/803 created
+00:36:04 INFO bind and execute selected queries ...
+00:36:05 INFO bound/executed 250/2660 queries (2 s)
+00:36:07 INFO bound/executed 500/2660 queries (3 s)
+00:36:21 INFO bound/executed 2250/2660 queries (18 s)
+00:37:04 INFO bind and execute selected queries done in 60.2 s
+00:37:04 INFO prepare: 975 non-empty answers (V13: 975)
+00:37:04 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:37:04 INFO prepare: already complete
+00:38:34 INFO lattice: 41 of 44 tasks done (62 s)
+00:38:41 INFO lattice rank 1 (cid 474): 222 assets, 5597 attempted, 2047 verified {'projection': 1703, 'rollup': 22, 'selection': 322} (96 s)
+00:38:49 INFO lattice rank 2 (cid 1641): 81 assets, 73 attempted, 19 verified {'projection': 18, 'selection': 1} (104 s)
+00:39:08 INFO lattice rank 3 (cid 4930): 81 assets, 788 attempted, 284 verified {'projection': 67, 'selection': 217} (124 s)
+00:39:08 WARNING query 2286 could not be materialized (type_error); it is left out, as in the historical run
+00:39:08 WARNING query 9282 could not be materialized (type_error); it is left out, as in the historical run
+00:39:08 WARNING query 9283 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9303 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9323 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9324 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9385 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9386 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9387 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9388 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9389 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9390 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9391 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9392 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9393 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9394 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9395 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9396 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9399 could not be materialized (type_error); it is left out, as in the historical run
+00:39:09 WARNING query 9402 could not be materialized (type_error); it is left out, as in the historical run
+00:39:12 INFO lattice rank 4 (cid 459): 47 assets, 211 attempted, 177 verified {'projection': 116, 'selection': 61} (127 s)
+00:39:15 INFO lattice rank 5 (cid 4086): 64 assets, 7 attempted, 3 verified {'selection': 3} (130 s)
+00:39:19 INFO lattice rank 6 (cid 7635): 60 assets, 311 attempted, 129 verified {'projection': 65, 'selection': 64} (135 s)
+00:39:24 INFO lattice rank 7 (cid 8126): 55 assets, 207 attempted, 77 verified {'projection': 14, 'selection': 63} (139 s)
+00:39:32 INFO lattice rank 8 (cid 7948): 48 assets, 278 attempted, 53 verified {'projection': 39, 'selection': 14} (148 s)
+00:39:34 INFO lattice rank 9 (cid 2941): 18 assets, 26 attempted, 4 verified {'projection': 2, 'selection': 2} (149 s)
+00:39:53 INFO lattice rank 10 (cid 270): 19 assets, 40 attempted, 16 verified {'projection': 16} (168 s)
+00:40:14 INFO lattice rank 11 (cid 6229): 33 assets, 121 attempted, 86 verified {'projection': 24, 'selection': 62} (190 s)
+00:40:15 INFO lattice rank 12 (cid 6969): 31 assets, 79 attempted, 28 verified {'selection': 5, 'projection': 23} (190 s)
+00:40:15 INFO lattice rank 13 (cid 1115): 2 assets, 1 attempted, 0 verified {} (190 s)
+00:40:17 INFO lattice rank 14 (cid 2610): 27 assets, 287 attempted, 19 verified {'selection': 11, 'projection': 8} (192 s)
+00:40:17 WARNING query 9146 could not be materialized (type_error); it is left out, as in the historical run
+00:40:17 WARNING query 9159 could not be materialized (type_error); it is left out, as in the historical run
+00:40:26 INFO lattice rank 15 (cid 458): 18 assets, 85 attempted, 27 verified {'projection': 26, 'selection': 1} (201 s)
+00:40:26 WARNING query 1057 could not be materialized (type_error); it is left out, as in the historical run
+00:40:26 INFO lattice rank 16 (cid 33): 8 assets, 4 attempted, 2 verified {'projection': 2} (201 s)
+00:40:29 WARNING query 2287 could not be materialized (type_error); it is left out, as in the historical run
+00:40:29 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:40:29 INFO prepare: already complete
+00:40:29 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:40:29 INFO prepare: already complete
+00:40:29 INFO lattice (paper): already complete
+00:40:33 INFO main market: cid 474, 222 assets, 2047 verified pairs
+00:40:33 INFO base fingerprints ...
+00:40:37 INFO base fingerprints done in 3.7 s
+00:40:37 INFO support set: size-proportional, 2000 neighbours (curve) ...
+00:40:44 INFO support set: size-proportional, 2000 neighbours (curve) done in 7.0 s
+00:40:44 INFO witness search, 1000 neighbours ...
+00:40:45 INFO witness search, 1000 neighbours done in 0.4 s
+00:40:45 INFO support set: size-proportional, 300 neighbours ...
+00:40:46 INFO support set: size-proportional, 300 neighbours done in 1.6 s
+00:40:46 INFO support set: readership-weighted, 300 neighbours ...
+00:42:00 INFO readership-weighted: 137/300 neighbours accepted (192 candidates, 74 s)
+00:43:31 INFO readership-weighted: 278/300 neighbours accepted (384 candidates, 165 s)
+00:43:48 INFO support set: readership-weighted, 300 neighbours done in 182.3 s
+00:43:48 INFO cover structure ...
+00:43:53 INFO cover structure done in 4.2 s
+00:43:53 INFO fit, freeze, and evaluate runs ...
+00:44:34 INFO fit, freeze, and evaluate runs done in 41.3 s
+00:44:35 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:44:35 INFO prepare: already complete
+00:44:35 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:44:35 INFO prepare: already complete
+00:44:35 INFO lattice (paper): already complete
+00:45:52 INFO market 1: 100/100 neighbours accepted (147 candidates, 68 s)
+00:45:52 INFO market rank 1 (cid 474, 222 assets): ok (77 s)
+00:46:35 INFO market 2: 55/100 neighbours accepted (158 candidates, 41 s)
+00:47:10 INFO market 2: 99/100 neighbours accepted (301 candidates, 76 s)
+00:47:14 INFO market rank 2 (cid 1641, 81 assets): ok (159 s)
+00:47:16 WARNING market 3: only 0 of 100 neighbours after 2000 candidates
+00:47:16 INFO market rank 3 (cid 4930, 81 assets): ok (161 s)
+00:47:16 WARNING market 4: only 0 of 100 neighbours after 2000 candidates
+00:47:17 INFO market rank 4 (cid 459, 47 assets): ok (162 s)
+00:47:17 WARNING market 5: only 31 of 100 neighbours after 2000 candidates
+00:47:18 INFO market rank 5 (cid 4086, 64 assets): ok (163 s)
+00:47:33 INFO market rank 6 (cid 7635, 60 assets): ok (178 s)
+00:47:49 INFO market rank 7 (cid 8126, 55 assets): ok (194 s)
+00:48:49 INFO market 8: 100/100 neighbours accepted (111 candidates, 58 s)
+00:48:49 INFO market rank 8 (cid 7948, 48 assets): ok (254 s)
+00:49:02 INFO market rank 9 (cid 2941, 18 assets): ok (267 s)
+00:49:23 WARNING market 10: only 0 of 100 neighbours after 2000 candidates
+00:49:24 INFO market rank 10 (cid 270, 19 assets): ok (289 s)
+00:49:32 WARNING market 11: only 0 of 100 neighbours after 2000 candidates
+00:49:33 INFO market rank 11 (cid 6229, 33 assets): ok (298 s)
+00:50:13 INFO market 12: 100/100 neighbours accepted (130 candidates, 40 s)
+00:50:14 INFO market rank 12 (cid 6969, 31 assets): ok (339 s)
+00:50:14 INFO market rank 13 (cid 1115, 2 assets): too_small (339 s)
+00:51:52 INFO market 14: 100/100 neighbours accepted (100 candidates, 96 s)
+00:51:52 INFO market rank 14 (cid 2610, 27 assets): ok (437 s)
+00:52:04 INFO market rank 15 (cid 458, 18 assets): ok (449 s)
+00:52:05 INFO market rank 16 (cid 33, 8 assets): ok (450 s)
+00:52:05 INFO market rank 17 (cid 2337, 5 assets): too_small (450 s)
+00:52:05 INFO market rank 18 (cid 2034, 5 assets): too_small (450 s)
+00:52:05 INFO market rank 19 (cid 487, 4 assets): too_small (450 s)
+00:52:05 INFO market rank 20 (cid 2287, 1 assets): too_small (450 s)
+00:52:05 INFO market rank 21 (cid 3561, 2 assets): too_small (450 s)
+00:52:06 INFO report (paper): results\paper\compare_with_V13.csv
+00:52:06 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:52:06 INFO prepare: already complete
+00:53:11 INFO lattice rank 1 (cid 474): 222 assets, 5597 attempted, 1902 verified {'projection': 1703, 'rollup': 22, 'selection': 177} (65 s)
+00:53:17 INFO lattice rank 2 (cid 1641): 81 assets, 73 attempted, 18 verified {'projection': 18} (71 s)
+00:53:32 INFO lattice rank 3 (cid 4930): 81 assets, 788 attempted, 265 verified {'projection': 67, 'selection': 198} (86 s)
+00:53:35 INFO lattice rank 4 (cid 459): 47 assets, 211 attempted, 116 verified {'projection': 116} (89 s)
+00:53:38 INFO lattice rank 5 (cid 4086): 64 assets, 7 attempted, 3 verified {'selection': 3} (92 s)
+00:53:41 INFO lattice rank 6 (cid 7635): 60 assets, 311 attempted, 110 verified {'projection': 65, 'selection': 45} (95 s)
+00:53:46 INFO lattice rank 7 (cid 8126): 55 assets, 207 attempted, 76 verified {'projection': 14, 'selection': 62} (100 s)
+00:53:52 INFO lattice rank 8 (cid 7948): 48 assets, 278 attempted, 42 verified {'projection': 39, 'selection': 3} (106 s)
+00:53:53 INFO lattice rank 9 (cid 2941): 18 assets, 26 attempted, 4 verified {'projection': 2, 'selection': 2} (107 s)
+00:53:53 INFO lattice rank 10 (cid 270): 19 assets, 40 attempted, 16 verified {'projection': 16} (108 s)
+00:54:10 INFO lattice rank 11 (cid 6229): 33 assets, 121 attempted, 53 verified {'projection': 24, 'selection': 29} (124 s)
+00:54:10 INFO lattice rank 12 (cid 6969): 31 assets, 79 attempted, 23 verified {'projection': 23} (124 s)
+00:54:10 INFO lattice rank 13 (cid 1115): 2 assets, 1 attempted, 0 verified {} (124 s)
+00:54:11 INFO lattice rank 14 (cid 2610): 27 assets, 287 attempted, 12 verified {'projection': 8, 'selection': 4} (125 s)
+00:54:17 INFO lattice rank 15 (cid 458): 18 assets, 85 attempted, 27 verified {'projection': 26, 'selection': 1} (131 s)
+00:54:17 INFO lattice rank 16 (cid 33): 8 assets, 4 attempted, 2 verified {'projection': 2} (131 s)
+00:54:17 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:54:17 INFO prepare: already complete
+00:54:17 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+00:54:17 INFO prepare: already complete
+00:54:17 INFO lattice (corrected): already complete
+00:54:41 INFO main market: cid 474, 222 assets, 1902 verified pairs
+00:54:41 INFO base fingerprints ...
+00:54:44 INFO base fingerprints done in 3.5 s
+00:54:44 INFO support set: size-proportional, 2000 neighbours (curve) ...
+00:55:15 INFO curve: 1920/2000 neighbours accepted (1920 candidates, 30 s)
+00:55:15 INFO support set: size-proportional, 2000 neighbours (curve) done in 30.7 s
+00:55:15 INFO witness search, 1000 neighbours ...
+00:55:15 INFO witness search, 1000 neighbours done in 0.4 s
+00:55:15 INFO support set: size-proportional, 300 neighbours ...
+00:55:23 INFO support set: size-proportional, 300 neighbours done in 7.9 s
+00:55:23 INFO support set: readership-weighted, 300 neighbours ...
+00:57:34 INFO readership-weighted: 192/300 neighbours accepted (192 candidates, 131 s)
+00:59:20 INFO readership-weighted: 300/300 neighbours accepted (300 candidates, 237 s)
+00:59:20 INFO support set: readership-weighted, 300 neighbours done in 236.7 s
+00:59:20 INFO cover structure ...
+00:59:24 INFO cover structure done in 4.1 s
+00:59:24 INFO fit, freeze, and evaluate runs ...
+01:00:25 INFO fit, freeze, and evaluate runs done in 61.1 s
+01:00:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+01:00:30 INFO prepare: already complete
+01:00:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+01:00:30 INFO prepare: already complete
+01:00:30 INFO lattice (corrected): already complete
+01:00:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+01:00:30 INFO prepare: already complete
+01:00:30 INFO main market (corrected): already complete
+01:02:23 INFO market 1: 100/100 neighbours accepted (100 candidates, 104 s)
+01:02:28 INFO market rank 1 (cid 474, 222 assets): ok (117 s)
+01:03:02 INFO market 2: 100/100 neighbours accepted (100 candidates, 32 s)
+01:03:03 INFO market rank 2 (cid 1641, 81 assets): ok (153 s)
+01:03:46 INFO full market 2: 192/300 neighbours accepted (192 candidates, 42 s)
+01:04:54 INFO market rank 3 (cid 4930, 81 assets): ok (264 s)
+01:05:35 INFO full market 3: 192/300 neighbours accepted (192 candidates, 40 s)
+01:06:35 INFO market rank 4 (cid 459, 47 assets): ok (365 s)
+01:07:17 INFO full market 4: 300/300 neighbours accepted (300 candidates, 42 s)
+01:07:42 INFO market rank 5 (cid 4086, 64 assets): ok (432 s)
+01:08:17 INFO market rank 6 (cid 7635, 60 assets): ok (467 s)
+01:08:54 INFO full market 6: 192/300 neighbours accepted (192 candidates, 37 s)
+01:09:58 INFO market rank 7 (cid 8126, 55 assets): ok (568 s)
+01:10:44 INFO full market 7: 192/300 neighbours accepted (192 candidates, 45 s)
+01:12:21 INFO market 8: 100/100 neighbours accepted (100 candidates, 55 s)
+01:12:22 INFO market rank 8 (cid 7948, 48 assets): ok (712 s)
+01:13:52 INFO full market 8: 192/300 neighbours accepted (192 candidates, 88 s)
+01:14:38 INFO full market 8: 300/300 neighbours accepted (300 candidates, 134 s)
+01:15:01 INFO market rank 9 (cid 2941, 18 assets): ok (871 s)
+01:45:54 INFO market 10: 100/100 neighbours accepted (100 candidates, 1794 s)
+01:45:54 INFO market rank 10 (cid 270, 19 assets): ok (2724 s)
+02:34:19 INFO full market 10: 192/300 neighbours accepted (192 candidates, 2885 s)
+03:04:25 INFO full market 10: 300/300 neighbours accepted (300 candidates, 4691 s)
+03:20:36 INFO market 11: 100/100 neighbours accepted (100 candidates, 937 s)
+03:20:37 INFO market rank 11 (cid 6229, 33 assets): ok (8407 s)
+03:44:54 INFO full market 11: 192/300 neighbours accepted (192 candidates, 1446 s)
+04:00:04 INFO full market 11: 300/300 neighbours accepted (300 candidates, 2356 s)
+04:01:12 INFO market 12: 100/100 neighbours accepted (100 candidates, 55 s)
+04:01:12 INFO market rank 12 (cid 6969, 31 assets): ok (10842 s)
+04:02:47 INFO full market 12: 192/300 neighbours accepted (192 candidates, 93 s)
+04:03:41 INFO full market 12: 300/300 neighbours accepted (300 candidates, 148 s)
+04:03:53 INFO market rank 13 (cid 1115, 2 assets): too_small (11003 s)
+04:06:56 INFO market 14: 100/100 neighbours accepted (100 candidates, 180 s)
+04:06:57 INFO market rank 14 (cid 2610, 27 assets): ok (11187 s)
+04:12:01 INFO full market 14: 192/300 neighbours accepted (192 candidates, 302 s)
+04:15:08 INFO full market 14: 300/300 neighbours accepted (300 candidates, 489 s)
+04:15:50 INFO market rank 15 (cid 458, 18 assets): ok (11720 s)
+04:16:33 INFO full market 15: 300/300 neighbours accepted (300 candidates, 42 s)
+04:17:13 INFO market rank 16 (cid 33, 8 assets): ok (11803 s)
+04:17:30 INFO market rank 17 (cid 2337, 5 assets): too_small (11820 s)
+04:17:30 INFO market rank 18 (cid 2034, 5 assets): too_small (11820 s)
+04:17:30 INFO market rank 19 (cid 487, 4 assets): too_small (11820 s)
+04:17:30 INFO market rank 20 (cid 2287, 1 assets): too_small (11820 s)
+04:17:30 INFO market rank 21 (cid 3561, 2 assets): too_small (11820 s)
+04:17:31 INFO report (corrected): results\corrected\compare_with_V13.csv
+04:17:31 INFO side-by-side comparison: results\protocol_comparison.csv and results\REPORT.md
+04:17:31 INFO finished in 225.4 min
+10:45:40 INFO sqlshare_rerun | command all | protocols ['paper', 'corrected'] | {'python': '3.12.10', 'platform': 'Windows-11-10.0.26200-SP0', 'machine': 'AMD64', 'cpu_count': 12, 'duckdb': '1.5.5', 'numpy': '2.3.5', 'pandas': '2.2.3', 'scipy': '1.17.0', 'sqlglot': '30.18.0'}
+10:45:40 INFO folder E:\EAB_ReRun_29_Sep\sqlshare_rerun | workers 11 | sampling threads 12
+10:45:40 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+10:45:40 INFO prepare: already complete
+10:45:40 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+10:45:40 INFO prepare: already complete
+10:46:57 INFO lattice: 41 of 44 tasks done (62 s)
+10:47:04 INFO lattice rank 1 (cid 474): 222 assets, 5597 attempted, 2047 verified {'projection': 1703, 'rollup': 22, 'selection': 322} (84 s)
+10:47:11 INFO lattice rank 2 (cid 1641): 81 assets, 73 attempted, 19 verified {'projection': 18, 'selection': 1} (91 s)
+10:47:30 INFO lattice rank 3 (cid 4930): 81 assets, 788 attempted, 284 verified {'projection': 67, 'selection': 217} (110 s)
+10:47:33 INFO lattice rank 4 (cid 459): 47 assets, 211 attempted, 177 verified {'projection': 116, 'selection': 61} (113 s)
+10:47:35 INFO lattice rank 5 (cid 4086): 64 assets, 7 attempted, 3 verified {'selection': 3} (115 s)
+10:47:39 INFO lattice rank 6 (cid 7635): 60 assets, 311 attempted, 129 verified {'projection': 65, 'selection': 64} (119 s)
+10:47:43 INFO lattice rank 7 (cid 8126): 55 assets, 207 attempted, 77 verified {'projection': 14, 'selection': 63} (123 s)
+10:47:51 INFO lattice rank 8 (cid 7948): 48 assets, 278 attempted, 53 verified {'projection': 39, 'selection': 14} (131 s)
+10:47:52 INFO lattice rank 9 (cid 2941): 18 assets, 26 attempted, 4 verified {'projection': 2, 'selection': 2} (132 s)
+10:47:52 INFO lattice rank 10 (cid 270): 19 assets, 40 attempted, 16 verified {'projection': 16} (132 s)
+10:48:08 INFO lattice rank 11 (cid 6229): 33 assets, 121 attempted, 86 verified {'projection': 24, 'selection': 62} (148 s)
+10:48:09 INFO lattice rank 12 (cid 6969): 31 assets, 79 attempted, 28 verified {'selection': 5, 'projection': 23} (149 s)
+10:48:09 INFO lattice rank 13 (cid 1115): 2 assets, 1 attempted, 0 verified {} (149 s)
+10:48:10 INFO lattice rank 14 (cid 2610): 27 assets, 287 attempted, 19 verified {'selection': 11, 'projection': 8} (150 s)
+10:48:17 INFO lattice rank 15 (cid 458): 18 assets, 85 attempted, 27 verified {'projection': 26, 'selection': 1} (157 s)
+10:48:17 INFO lattice rank 16 (cid 33): 8 assets, 4 attempted, 2 verified {'projection': 2} (157 s)
+10:48:20 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+10:48:20 INFO prepare: already complete
+10:48:20 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+10:48:20 INFO prepare: already complete
+10:48:20 INFO lattice (paper): already complete
+10:48:24 INFO main market: cid 474, 222 assets, 2047 verified pairs
+10:48:24 INFO base fingerprints ...
+10:48:28 INFO base fingerprints done in 3.8 s
+10:48:28 INFO support set: size-proportional, 30000 neighbours (curve) ...
+10:49:00 INFO curve: 6092/30000 neighbours accepted (6720 candidates, 31 s)
+10:49:33 INFO curve: 10778/30000 neighbours accepted (11904 candidates, 64 s)
+10:50:05 INFO curve: 17605/30000 neighbours accepted (19392 candidates, 97 s)
+10:50:38 INFO curve: 21430/30000 neighbours accepted (23616 candidates, 130 s)
+10:51:11 INFO curve: 27219/30000 neighbours accepted (29952 candidates, 162 s)
+10:51:26 INFO support set: size-proportional, 30000 neighbours (curve) done in 178.2 s
+10:51:26 INFO witness search, 4000 neighbours ...
+10:51:28 INFO witness search, 4000 neighbours done in 1.6 s
+10:51:28 INFO support set: size-proportional, 1000 neighbours ...
+10:51:34 INFO support set: size-proportional, 1000 neighbours done in 5.5 s
+10:51:34 INFO support set: readership-weighted, 1000 neighbours ...
+10:52:49 INFO readership-weighted: 137/1000 neighbours accepted (192 candidates, 75 s)
+10:54:21 INFO readership-weighted: 278/1000 neighbours accepted (384 candidates, 167 s)
+10:55:50 INFO readership-weighted: 420/1000 neighbours accepted (576 candidates, 257 s)
+10:57:12 INFO readership-weighted: 559/1000 neighbours accepted (768 candidates, 339 s)
+10:58:26 INFO readership-weighted: 692/1000 neighbours accepted (960 candidates, 412 s)
+10:59:49 INFO readership-weighted: 824/1000 neighbours accepted (1152 candidates, 496 s)
+11:01:20 INFO readership-weighted: 961/1000 neighbours accepted (1344 candidates, 586 s)
+11:01:55 INFO readership-weighted: 1000/1000 neighbours accepted (1391 candidates, 622 s)
+11:01:55 INFO support set: readership-weighted, 1000 neighbours done in 621.6 s
+11:01:55 INFO cover structure ...
+11:01:59 INFO cover structure done in 4.2 s
+11:02:00 INFO fit, freeze, and evaluate runs ...
+11:03:16 INFO fit, freeze, and evaluate runs done in 76.6 s
+11:03:18 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:03:18 INFO prepare: already complete
+11:03:18 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:03:18 INFO prepare: already complete
+11:03:18 INFO lattice (paper): already complete
+11:04:38 INFO market 1: 130/300 neighbours accepted (192 candidates, 72 s)
+11:05:46 INFO market 1: 264/300 neighbours accepted (384 candidates, 140 s)
+11:06:15 INFO market rank 1 (cid 474, 222 assets): ok (176 s)
+11:06:57 INFO market 2: 65/300 neighbours accepted (192 candidates, 40 s)
+11:07:40 INFO market 2: 126/300 neighbours accepted (384 candidates, 83 s)
+11:08:25 INFO market 2: 186/300 neighbours accepted (576 candidates, 128 s)
+11:09:10 INFO market 2: 243/300 neighbours accepted (768 candidates, 173 s)
+11:10:01 INFO market 2: 300/300 neighbours accepted (935 candidates, 224 s)
+11:10:02 INFO market rank 2 (cid 1641, 81 assets): ok (404 s)
+11:10:04 WARNING market 3: only 0 of 300 neighbours after 6000 candidates
+11:10:05 INFO market rank 3 (cid 4930, 81 assets): ok (406 s)
+11:10:05 WARNING market 4: only 0 of 300 neighbours after 6000 candidates
+11:10:06 INFO market rank 4 (cid 459, 47 assets): ok (408 s)
+11:10:07 WARNING market 5: only 104 of 300 neighbours after 6000 candidates
+11:10:08 INFO market rank 5 (cid 4086, 64 assets): ok (409 s)
+11:10:40 INFO market 6: 299/300 neighbours accepted (660 candidates, 32 s)
+11:10:42 INFO market rank 6 (cid 7635, 60 assets): ok (443 s)
+11:11:13 INFO market 7: 272/300 neighbours accepted (576 candidates, 31 s)
+11:11:19 INFO market rank 7 (cid 8126, 55 assets): ok (480 s)
+11:12:32 INFO market 8: 169/300 neighbours accepted (192 candidates, 71 s)
+11:13:34 INFO market 8: 300/300 neighbours accepted (341 candidates, 134 s)
+11:13:36 INFO market rank 8 (cid 7948, 48 assets): ok (618 s)
+11:14:07 INFO market 9: 300/300 neighbours accepted (301 candidates, 30 s)
+11:14:08 INFO market rank 9 (cid 2941, 18 assets): ok (649 s)
+11:14:29 WARNING market 10: only 0 of 300 neighbours after 6000 candidates
+11:14:30 INFO market rank 10 (cid 270, 19 assets): ok (671 s)
+11:14:38 WARNING market 11: only 0 of 300 neighbours after 6000 candidates
+11:14:39 INFO market rank 11 (cid 6229, 33 assets): ok (680 s)
+11:15:30 INFO market 12: 148/300 neighbours accepted (192 candidates, 51 s)
+11:16:24 INFO market 12: 300/300 neighbours accepted (378 candidates, 104 s)
+11:16:26 INFO market rank 12 (cid 6969, 31 assets): ok (788 s)
+11:16:27 INFO market rank 13 (cid 1115, 2 assets): too_small (788 s)
+11:19:59 INFO market 14: 192/300 neighbours accepted (192 candidates, 210 s)
+11:22:05 INFO market 14: 300/300 neighbours accepted (300 candidates, 337 s)
+11:22:09 INFO market rank 14 (cid 2610, 27 assets): ok (1130 s)
+11:22:41 INFO market 15: 300/300 neighbours accepted (300 candidates, 32 s)
+11:22:47 INFO market rank 15 (cid 458, 18 assets): ok (1168 s)
+11:22:51 INFO market rank 16 (cid 33, 8 assets): ok (1173 s)
+11:22:51 INFO market rank 17 (cid 2337, 5 assets): too_small (1173 s)
+11:22:51 INFO market rank 18 (cid 2034, 5 assets): too_small (1173 s)
+11:22:51 INFO market rank 19 (cid 487, 4 assets): too_small (1173 s)
+11:22:51 INFO market rank 20 (cid 2287, 1 assets): too_small (1173 s)
+11:22:51 INFO market rank 21 (cid 3561, 2 assets): too_small (1173 s)
+11:22:52 INFO report (paper): results\paper\compare_with_V13.csv
+11:22:52 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:22:52 INFO prepare: already complete
+11:24:01 INFO lattice rank 1 (cid 474): 222 assets, 5597 attempted, 1902 verified {'projection': 1703, 'rollup': 22, 'selection': 177} (68 s)
+11:24:07 INFO lattice rank 2 (cid 1641): 81 assets, 73 attempted, 18 verified {'projection': 18} (75 s)
+11:24:23 INFO lattice rank 3 (cid 4930): 81 assets, 788 attempted, 265 verified {'projection': 67, 'selection': 198} (90 s)
+11:24:26 INFO lattice rank 4 (cid 459): 47 assets, 211 attempted, 116 verified {'projection': 116} (93 s)
+11:24:29 INFO lattice rank 5 (cid 4086): 64 assets, 7 attempted, 3 verified {'selection': 3} (96 s)
+11:24:32 INFO lattice rank 6 (cid 7635): 60 assets, 311 attempted, 110 verified {'projection': 65, 'selection': 45} (100 s)
+11:24:36 INFO lattice rank 7 (cid 8126): 55 assets, 207 attempted, 76 verified {'projection': 14, 'selection': 62} (104 s)
+11:24:43 INFO lattice rank 8 (cid 7948): 48 assets, 278 attempted, 42 verified {'projection': 39, 'selection': 3} (111 s)
+11:24:44 INFO lattice rank 9 (cid 2941): 18 assets, 26 attempted, 4 verified {'projection': 2, 'selection': 2} (112 s)
+11:24:44 INFO lattice rank 10 (cid 270): 19 assets, 40 attempted, 16 verified {'projection': 16} (112 s)
+11:25:02 INFO lattice rank 11 (cid 6229): 33 assets, 121 attempted, 53 verified {'projection': 24, 'selection': 29} (129 s)
+11:25:02 INFO lattice rank 12 (cid 6969): 31 assets, 79 attempted, 23 verified {'projection': 23} (130 s)
+11:25:02 INFO lattice rank 13 (cid 1115): 2 assets, 1 attempted, 0 verified {} (130 s)
+11:25:03 INFO lattice rank 14 (cid 2610): 27 assets, 287 attempted, 12 verified {'projection': 8, 'selection': 4} (130 s)
+11:25:09 INFO lattice rank 15 (cid 458): 18 assets, 85 attempted, 27 verified {'projection': 26, 'selection': 1} (137 s)
+11:25:09 INFO lattice rank 16 (cid 33): 8 assets, 4 attempted, 2 verified {'projection': 2} (137 s)
+11:25:09 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:25:09 INFO prepare: already complete
+11:25:09 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:25:09 INFO prepare: already complete
+11:25:09 INFO lattice (corrected): already complete
+11:25:34 INFO main market: cid 474, 222 assets, 1902 verified pairs
+11:25:34 INFO base fingerprints ...
+11:25:38 INFO base fingerprints done in 3.7 s
+11:25:38 INFO support set: size-proportional, 30000 neighbours (curve) ...
+11:26:10 INFO curve: 1728/30000 neighbours accepted (1728 candidates, 31 s)
+11:26:41 INFO curve: 4032/30000 neighbours accepted (4032 candidates, 63 s)
+11:27:13 INFO curve: 5952/30000 neighbours accepted (5952 candidates, 95 s)
+11:27:46 INFO curve: 7872/30000 neighbours accepted (7872 candidates, 128 s)
+11:28:19 INFO curve: 9984/30000 neighbours accepted (9984 candidates, 161 s)
+11:28:52 INFO curve: 11904/30000 neighbours accepted (11904 candidates, 194 s)
+11:29:22 INFO curve: 14016/30000 neighbours accepted (14016 candidates, 224 s)
+11:29:54 INFO curve: 16512/30000 neighbours accepted (16512 candidates, 255 s)
+11:30:27 INFO curve: 18624/30000 neighbours accepted (18624 candidates, 289 s)
+11:30:58 INFO curve: 20736/30000 neighbours accepted (20736 candidates, 320 s)
+11:31:30 INFO curve: 22848/30000 neighbours accepted (22848 candidates, 352 s)
+11:32:01 INFO curve: 24192/30000 neighbours accepted (24192 candidates, 382 s)
+11:32:31 INFO curve: 25920/30000 neighbours accepted (25920 candidates, 413 s)
+11:33:04 INFO curve: 28416/30000 neighbours accepted (28416 candidates, 446 s)
+11:33:33 INFO support set: size-proportional, 30000 neighbours (curve) done in 474.8 s
+11:33:33 INFO witness search, 4000 neighbours ...
+11:33:34 INFO witness search, 4000 neighbours done in 1.6 s
+11:33:34 INFO support set: size-proportional, 1000 neighbours ...
+11:33:51 INFO support set: size-proportional, 1000 neighbours done in 17.0 s
+11:33:51 INFO support set: readership-weighted, 1000 neighbours ...
+11:36:32 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 160 s)
+11:39:48 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 357 s)
+11:42:40 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 528 s)
+11:45:39 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 708 s)
+11:48:41 INFO readership-weighted: 960/1000 neighbours accepted (960 candidates, 889 s)
+11:49:32 INFO readership-weighted: 1000/1000 neighbours accepted (1000 candidates, 941 s)
+11:49:32 INFO support set: readership-weighted, 1000 neighbours done in 941.0 s
+11:49:32 INFO cover structure ...
+11:49:37 INFO cover structure done in 4.3 s
+11:49:37 INFO fit, freeze, and evaluate runs ...
+11:50:51 INFO fit, freeze, and evaluate runs: 12 of 40 tasks done (62 s)
+11:51:25 INFO fit, freeze, and evaluate runs done in 108.4 s
+11:51:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:51:30 INFO prepare: already complete
+11:51:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:51:30 INFO prepare: already complete
+11:51:30 INFO lattice (corrected): already complete
+11:51:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+11:51:30 INFO prepare: already complete
+11:51:30 INFO main market (corrected): already complete
+11:54:27 INFO market 1: 192/300 neighbours accepted (192 candidates, 168 s)
+11:56:08 INFO market 1: 300/300 neighbours accepted (300 candidates, 268 s)
+11:56:14 INFO market rank 1 (cid 474, 222 assets): ok (284 s)
+11:57:04 INFO market 2: 192/300 neighbours accepted (192 candidates, 47 s)
+11:57:34 INFO market rank 2 (cid 1641, 81 assets): ok (364 s)
+11:58:18 INFO full market 2: 192/1000 neighbours accepted (192 candidates, 42 s)
+11:59:00 INFO full market 2: 384/1000 neighbours accepted (384 candidates, 84 s)
+11:59:46 INFO full market 2: 576/1000 neighbours accepted (576 candidates, 131 s)
+12:00:38 INFO full market 2: 768/1000 neighbours accepted (768 candidates, 183 s)
+12:01:31 INFO full market 2: 960/1000 neighbours accepted (960 candidates, 235 s)
+12:02:57 INFO market 3: 192/300 neighbours accepted (192 candidates, 43 s)
+12:03:31 INFO market rank 3 (cid 4930, 81 assets): ok (721 s)
+12:04:14 INFO full market 3: 192/1000 neighbours accepted (192 candidates, 42 s)
+12:04:57 INFO full market 3: 384/1000 neighbours accepted (384 candidates, 85 s)
+12:05:40 INFO full market 3: 576/1000 neighbours accepted (576 candidates, 128 s)
+12:06:24 INFO full market 3: 768/1000 neighbours accepted (768 candidates, 171 s)
+12:07:04 INFO full market 3: 960/1000 neighbours accepted (960 candidates, 212 s)
+12:08:23 INFO fit, freeze, and evaluate runs: 27 of 40 tasks done (62 s)
+12:09:22 INFO market 4: 300/300 neighbours accepted (300 candidates, 44 s)
+12:09:26 INFO market rank 4 (cid 459, 47 assets): ok (1076 s)
+12:10:20 INFO full market 4: 384/1000 neighbours accepted (384 candidates, 53 s)
+12:11:12 INFO full market 4: 768/1000 neighbours accepted (768 candidates, 105 s)
+12:11:45 INFO full market 4: 1000/1000 neighbours accepted (1000 candidates, 138 s)
+12:12:47 INFO fit, freeze, and evaluate runs: 11 of 40 tasks done (61 s)
+12:13:48 INFO fit, freeze, and evaluate runs: 26 of 40 tasks done (122 s)
+12:14:40 INFO market rank 5 (cid 4086, 64 assets): ok (1390 s)
+12:15:47 INFO market 6: 192/300 neighbours accepted (192 candidates, 39 s)
+12:16:14 INFO market rank 6 (cid 7635, 60 assets): ok (1484 s)
+12:16:53 INFO full market 6: 192/1000 neighbours accepted (192 candidates, 38 s)
+12:17:30 INFO full market 6: 384/1000 neighbours accepted (384 candidates, 76 s)
+12:18:05 INFO full market 6: 576/1000 neighbours accepted (576 candidates, 111 s)
+12:18:41 INFO full market 6: 768/1000 neighbours accepted (768 candidates, 147 s)
+12:19:16 INFO full market 6: 960/1000 neighbours accepted (960 candidates, 181 s)
+12:21:09 INFO market 7: 192/300 neighbours accepted (192 candidates, 46 s)
+12:21:40 INFO market rank 7 (cid 8126, 55 assets): ok (1810 s)
+12:22:27 INFO full market 7: 192/1000 neighbours accepted (192 candidates, 46 s)
+12:23:12 INFO full market 7: 384/1000 neighbours accepted (384 candidates, 91 s)
+12:23:59 INFO full market 7: 576/1000 neighbours accepted (576 candidates, 138 s)
+12:24:44 INFO full market 7: 768/1000 neighbours accepted (768 candidates, 183 s)
+12:25:30 INFO full market 7: 960/1000 neighbours accepted (960 candidates, 229 s)
+12:28:05 INFO market 8: 192/300 neighbours accepted (192 candidates, 88 s)
+12:28:59 INFO market 8: 300/300 neighbours accepted (300 candidates, 142 s)
+12:29:02 INFO market rank 8 (cid 7948, 48 assets): ok (2251 s)
+12:30:36 INFO full market 8: 192/1000 neighbours accepted (192 candidates, 93 s)
+12:32:02 INFO full market 8: 384/1000 neighbours accepted (384 candidates, 179 s)
+12:33:35 INFO full market 8: 576/1000 neighbours accepted (576 candidates, 272 s)
+12:35:01 INFO full market 8: 768/1000 neighbours accepted (768 candidates, 358 s)
+12:36:22 INFO full market 8: 960/1000 neighbours accepted (960 candidates, 438 s)
+12:38:01 INFO market 9: 300/300 neighbours accepted (300 candidates, 32 s)
+12:38:02 INFO market rank 9 (cid 2941, 18 assets): ok (2792 s)
+12:38:39 INFO full market 9: 384/1000 neighbours accepted (384 candidates, 36 s)
+12:39:17 INFO full market 9: 768/1000 neighbours accepted (768 candidates, 75 s)
+13:34:10 INFO market 10: 192/300 neighbours accepted (192 candidates, 3204 s)
+14:08:52 INFO market 10: 300/300 neighbours accepted (300 candidates, 5286 s)
+14:08:56 INFO market rank 10 (cid 270, 19 assets): ok (8245 s)
+15:00:21 INFO full market 10: 192/1000 neighbours accepted (192 candidates, 3064 s)
+15:51:49 INFO full market 10: 384/1000 neighbours accepted (384 candidates, 6152 s)
+16:41:59 INFO full market 10: 576/1000 neighbours accepted (576 candidates, 9162 s)
+17:52:20 INFO full market 10: 768/1000 neighbours accepted (768 candidates, 13382 s)
+18:46:47 INFO full market 10: 960/1000 neighbours accepted (960 candidates, 16650 s)
+18:58:14 INFO full market 10: 1000/1000 neighbours accepted (1000 candidates, 17337 s)
+18:59:15 INFO fit, freeze, and evaluate runs: 18 of 40 tasks done (61 s)
+20:11:06 INFO market 11: 192/300 neighbours accepted (192 candidates, 4238 s)
+21:20:20 INFO market 11: 300/300 neighbours accepted (300 candidates, 8392 s)
+21:20:26 INFO market rank 11 (cid 6229, 33 assets): ok (34136 s)
+22:32:49 INFO full market 11: 192/1000 neighbours accepted (192 candidates, 4298 s)
+23:01:32 INFO full market 11: 384/1000 neighbours accepted (384 candidates, 6020 s)
+23:28:33 INFO full market 11: 576/1000 neighbours accepted (576 candidates, 7642 s)
+23:56:07 INFO full market 11: 768/1000 neighbours accepted (768 candidates, 9295 s)
+00:22:49 INFO full market 11: 960/1000 neighbours accepted (960 candidates, 10898 s)
+00:28:30 INFO full market 11: 1000/1000 neighbours accepted (1000 candidates, 11239 s)
+00:30:30 INFO market 12: 192/300 neighbours accepted (192 candidates, 92 s)
+00:31:25 INFO market 12: 300/300 neighbours accepted (300 candidates, 147 s)
+00:31:29 INFO market rank 12 (cid 6969, 31 assets): ok (45598 s)
+00:33:03 INFO full market 12: 192/1000 neighbours accepted (192 candidates, 94 s)
+00:34:32 INFO full market 12: 384/1000 neighbours accepted (384 candidates, 183 s)
+00:36:11 INFO full market 12: 576/1000 neighbours accepted (576 candidates, 282 s)
+00:37:55 INFO full market 12: 768/1000 neighbours accepted (768 candidates, 386 s)
+00:39:43 INFO full market 12: 960/1000 neighbours accepted (960 candidates, 493 s)
+00:41:07 INFO fit, freeze, and evaluate runs: 23 of 40 tasks done (62 s)
+00:41:31 INFO market rank 13 (cid 1115, 2 assets): too_small (46200 s)
+00:47:12 INFO market 14: 192/300 neighbours accepted (192 candidates, 339 s)
+00:50:38 INFO market 14: 300/300 neighbours accepted (300 candidates, 545 s)
+00:50:44 INFO market rank 14 (cid 2610, 27 assets): ok (46753 s)
+00:56:24 INFO full market 14: 192/1000 neighbours accepted (192 candidates, 337 s)
+01:02:06 INFO full market 14: 384/1000 neighbours accepted (384 candidates, 679 s)
+01:09:08 INFO full market 14: 576/1000 neighbours accepted (576 candidates, 1102 s)
+01:15:35 INFO full market 14: 768/1000 neighbours accepted (768 candidates, 1489 s)
+01:22:32 INFO full market 14: 960/1000 neighbours accepted (960 candidates, 1906 s)
+01:24:10 INFO full market 14: 1000/1000 neighbours accepted (1000 candidates, 2003 s)
+01:25:35 INFO fit, freeze, and evaluate runs: 8 of 40 tasks done (85 s)
+01:26:39 INFO fit, freeze, and evaluate runs: 22 of 40 tasks done (149 s)
+01:27:45 INFO fit, freeze, and evaluate runs: 32 of 40 tasks done (215 s)
+01:28:45 INFO market 15: 192/300 neighbours accepted (192 candidates, 35 s)
+01:29:17 INFO market rank 15 (cid 458, 18 assets): ok (49067 s)
+01:29:53 INFO full market 15: 192/1000 neighbours accepted (192 candidates, 35 s)
+01:30:27 INFO full market 15: 384/1000 neighbours accepted (384 candidates, 69 s)
+01:31:00 INFO full market 15: 576/1000 neighbours accepted (576 candidates, 102 s)
+01:31:36 INFO full market 15: 768/1000 neighbours accepted (768 candidates, 138 s)
+01:32:10 INFO full market 15: 960/1000 neighbours accepted (960 candidates, 172 s)
+01:33:48 INFO fit, freeze, and evaluate runs: 1 of 40 tasks done (89 s)
+01:34:49 INFO fit, freeze, and evaluate runs: 7 of 40 tasks done (151 s)
+01:36:02 INFO fit, freeze, and evaluate runs: 13 of 40 tasks done (223 s)
+01:37:34 INFO fit, freeze, and evaluate runs: 24 of 40 tasks done (315 s)
+01:38:52 INFO fit, freeze, and evaluate runs: 36 of 40 tasks done (393 s)
+01:39:18 INFO market rank 16 (cid 33, 8 assets): ok (49667 s)
+01:40:40 INFO fit, freeze, and evaluate runs: 23 of 40 tasks done (75 s)
+01:41:04 INFO market rank 17 (cid 2337, 5 assets): too_small (49774 s)
+01:41:04 INFO market rank 18 (cid 2034, 5 assets): too_small (49774 s)
+01:41:04 INFO market rank 19 (cid 487, 4 assets): too_small (49774 s)
+01:41:05 INFO market rank 20 (cid 2287, 1 assets): too_small (49774 s)
+01:41:05 INFO market rank 21 (cid 3561, 2 assets): too_small (49774 s)
+01:41:06 INFO report (corrected): results\corrected\compare_with_V13.csv
+01:41:06 INFO side-by-side comparison: results\protocol_comparison.csv and results\REPORT.md
+01:41:06 INFO finished in 895.4 min
+12:15:56 INFO sqlshare_rerun | command ablation | protocols ['paper', 'corrected'] | {'python': '3.12.10', 'platform': 'Windows-11-10.0.26200-SP0', 'machine': 'AMD64', 'cpu_count': 12, 'duckdb': '1.5.5', 'numpy': '2.3.5', 'pandas': '2.2.3', 'scipy': '1.17.0', 'sqlglot': '30.18.0'}
+12:15:56 INFO folder E:\EAB_ReRun_29_Sep\sqlshare_rerun | workers 11 | sampling threads 12
+12:15:56 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+12:15:56 INFO prepare: already complete
+12:15:56 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+12:15:56 INFO prepare: already complete
+12:17:22 INFO lattice: 41 of 44 tasks done (72 s)
+12:17:29 INFO lattice rank 1 (cid 474): 222 assets, 5597 attempted, 2047 verified {'projection': 1703, 'rollup': 22, 'selection': 322} (93 s)
+12:17:37 INFO lattice rank 2 (cid 1641): 81 assets, 73 attempted, 19 verified {'projection': 18, 'selection': 1} (101 s)
+12:17:56 INFO lattice rank 3 (cid 4930): 81 assets, 788 attempted, 284 verified {'projection': 67, 'selection': 217} (120 s)
+12:17:59 INFO lattice rank 4 (cid 459): 47 assets, 211 attempted, 177 verified {'projection': 116, 'selection': 61} (123 s)
+12:18:02 INFO lattice rank 5 (cid 4086): 64 assets, 7 attempted, 3 verified {'selection': 3} (126 s)
+12:18:06 INFO lattice rank 6 (cid 7635): 60 assets, 311 attempted, 129 verified {'projection': 65, 'selection': 64} (130 s)
+12:18:09 INFO lattice rank 7 (cid 8126): 55 assets, 207 attempted, 77 verified {'projection': 14, 'selection': 63} (133 s)
+12:18:16 INFO lattice rank 8 (cid 7948): 48 assets, 278 attempted, 53 verified {'projection': 39, 'selection': 14} (140 s)
+12:18:18 INFO lattice rank 9 (cid 2941): 18 assets, 26 attempted, 4 verified {'projection': 2, 'selection': 2} (142 s)
+12:18:18 INFO lattice rank 10 (cid 270): 19 assets, 40 attempted, 16 verified {'projection': 16} (142 s)
+12:18:34 INFO lattice rank 11 (cid 6229): 33 assets, 121 attempted, 86 verified {'projection': 24, 'selection': 62} (157 s)
+12:18:34 INFO lattice rank 12 (cid 6969): 31 assets, 79 attempted, 28 verified {'selection': 5, 'projection': 23} (158 s)
+12:18:34 INFO lattice rank 13 (cid 1115): 2 assets, 1 attempted, 0 verified {} (158 s)
+12:18:35 INFO lattice rank 14 (cid 2610): 27 assets, 287 attempted, 19 verified {'selection': 11, 'projection': 8} (159 s)
+12:18:43 INFO lattice rank 15 (cid 458): 18 assets, 85 attempted, 27 verified {'projection': 26, 'selection': 1} (167 s)
+12:18:43 INFO lattice rank 16 (cid 33): 8 assets, 4 attempted, 2 verified {'projection': 2} (167 s)
+12:18:45 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+12:18:45 INFO prepare: already complete
+12:19:54 INFO lattice rank 1 (cid 474): 222 assets, 5597 attempted, 1902 verified {'projection': 1703, 'rollup': 22, 'selection': 177} (69 s)
+12:20:01 INFO lattice rank 2 (cid 1641): 81 assets, 73 attempted, 18 verified {'projection': 18} (75 s)
+12:20:16 INFO lattice rank 3 (cid 4930): 81 assets, 788 attempted, 265 verified {'projection': 67, 'selection': 198} (90 s)
+12:20:19 INFO lattice rank 4 (cid 459): 47 assets, 211 attempted, 116 verified {'projection': 116} (93 s)
+12:20:21 INFO lattice rank 5 (cid 4086): 64 assets, 7 attempted, 3 verified {'selection': 3} (95 s)
+12:20:24 INFO lattice rank 6 (cid 7635): 60 assets, 311 attempted, 110 verified {'projection': 65, 'selection': 45} (99 s)
+12:20:28 INFO lattice rank 7 (cid 8126): 55 assets, 207 attempted, 76 verified {'projection': 14, 'selection': 62} (102 s)
+12:20:34 INFO lattice rank 8 (cid 7948): 48 assets, 278 attempted, 42 verified {'projection': 39, 'selection': 3} (109 s)
+12:20:35 INFO lattice rank 9 (cid 2941): 18 assets, 26 attempted, 4 verified {'projection': 2, 'selection': 2} (110 s)
+12:20:35 INFO lattice rank 10 (cid 270): 19 assets, 40 attempted, 16 verified {'projection': 16} (110 s)
+12:20:51 INFO lattice rank 11 (cid 6229): 33 assets, 121 attempted, 53 verified {'projection': 24, 'selection': 29} (126 s)
+12:20:52 INFO lattice rank 12 (cid 6969): 31 assets, 79 attempted, 23 verified {'projection': 23} (126 s)
+12:20:52 INFO lattice rank 13 (cid 1115): 2 assets, 1 attempted, 0 verified {} (126 s)
+12:20:52 INFO lattice rank 14 (cid 2610): 27 assets, 287 attempted, 12 verified {'projection': 8, 'selection': 4} (127 s)
+12:20:58 INFO lattice rank 15 (cid 458): 18 assets, 85 attempted, 27 verified {'projection': 26, 'selection': 1} (132 s)
+12:20:58 INFO lattice rank 16 (cid 33): 8 assets, 4 attempted, 2 verified {'projection': 2} (132 s)
+12:20:58 INFO ablation: 30 configurations on the main market (mode both, 2 seed sets)
+12:20:58 INFO ablation 1/30: paper (no change)
+12:20:58 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+12:20:58 INFO prepare: already complete
+12:21:02 INFO main market: cid 474, 222 assets, 2047 verified pairs
+12:21:02 INFO base fingerprints ...
+12:21:06 INFO base fingerprints done in 3.5 s
+12:21:06 INFO support set: size-proportional, 30000 neighbours (curve) ...
+12:21:37 INFO curve: 6092/30000 neighbours accepted (6720 candidates, 31 s)
+12:22:10 INFO curve: 10778/30000 neighbours accepted (11904 candidates, 64 s)
+12:22:43 INFO curve: 17605/30000 neighbours accepted (19392 candidates, 98 s)
+12:23:15 INFO curve: 21258/30000 neighbours accepted (23424 candidates, 129 s)
+12:23:46 INFO curve: 26332/30000 neighbours accepted (28992 candidates, 160 s)
+12:24:06 INFO support set: size-proportional, 30000 neighbours (curve) done in 180.5 s
+12:24:06 INFO witness search, 4000 neighbours ...
+12:24:08 INFO witness search, 4000 neighbours done in 1.6 s
+12:24:08 INFO support set: size-proportional, 1000 neighbours ...
+12:24:13 INFO support set: size-proportional, 1000 neighbours done in 5.5 s
+12:24:13 INFO support set: readership-weighted, 1000 neighbours ...
+12:25:28 INFO readership-weighted: 137/1000 neighbours accepted (192 candidates, 75 s)
+12:26:58 INFO readership-weighted: 278/1000 neighbours accepted (384 candidates, 165 s)
+12:28:26 INFO readership-weighted: 420/1000 neighbours accepted (576 candidates, 252 s)
+12:29:47 INFO readership-weighted: 559/1000 neighbours accepted (768 candidates, 333 s)
+12:30:59 INFO readership-weighted: 692/1000 neighbours accepted (960 candidates, 405 s)
+12:32:25 INFO readership-weighted: 824/1000 neighbours accepted (1152 candidates, 492 s)
+12:33:54 INFO readership-weighted: 961/1000 neighbours accepted (1344 candidates, 581 s)
+12:34:29 INFO readership-weighted: 1000/1000 neighbours accepted (1391 candidates, 615 s)
+12:34:29 INFO support set: readership-weighted, 1000 neighbours done in 615.3 s
+12:34:29 INFO cover structure ...
+12:34:33 INFO cover structure done in 4.3 s
+12:34:33 INFO fit, freeze, and evaluate runs ...
+12:35:47 INFO fit, freeze, and evaluate runs: 12 of 20 tasks done (64 s)
+12:35:54 INFO fit, freeze, and evaluate runs done in 81.3 s
+12:35:57 INFO ablation 2/30: corrected (no change)
+12:35:57 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+12:35:57 INFO prepare: already complete
+12:36:21 INFO main market: cid 474, 222 assets, 1902 verified pairs
+12:36:21 INFO base fingerprints ...
+12:36:25 INFO base fingerprints done in 3.6 s
+12:36:25 INFO support set: size-proportional, 30000 neighbours (curve) ...
+12:36:55 INFO curve: 1728/30000 neighbours accepted (1728 candidates, 30 s)
+12:37:25 INFO curve: 4032/30000 neighbours accepted (4032 candidates, 61 s)
+12:37:56 INFO curve: 5952/30000 neighbours accepted (5952 candidates, 91 s)
+12:38:26 INFO curve: 7872/30000 neighbours accepted (7872 candidates, 121 s)
+12:38:56 INFO curve: 9984/30000 neighbours accepted (9984 candidates, 152 s)
+12:39:37 INFO curve: 11136/30000 neighbours accepted (11136 candidates, 192 s)
+12:40:12 INFO curve: 11904/30000 neighbours accepted (11904 candidates, 227 s)
+12:40:51 INFO curve: 13056/30000 neighbours accepted (13056 candidates, 267 s)
+12:41:31 INFO curve: 14208/30000 neighbours accepted (14208 candidates, 307 s)
+12:42:07 INFO curve: 15744/30000 neighbours accepted (15744 candidates, 343 s)
+12:42:49 INFO curve: 16896/30000 neighbours accepted (16896 candidates, 384 s)
+12:43:23 INFO curve: 17856/30000 neighbours accepted (17856 candidates, 419 s)
+12:43:55 INFO curve: 18624/30000 neighbours accepted (18624 candidates, 450 s)
+12:44:30 INFO curve: 19776/30000 neighbours accepted (19776 candidates, 485 s)
+12:45:05 INFO curve: 20352/30000 neighbours accepted (20352 candidates, 521 s)
+12:45:43 INFO curve: 22080/30000 neighbours accepted (22080 candidates, 558 s)
+12:46:16 INFO curve: 22656/30000 neighbours accepted (22656 candidates, 591 s)
+12:46:50 INFO curve: 23232/30000 neighbours accepted (23232 candidates, 625 s)
+12:47:26 INFO curve: 24000/30000 neighbours accepted (24000 candidates, 662 s)
+12:48:06 INFO curve: 24960/30000 neighbours accepted (24960 candidates, 701 s)
+12:48:37 INFO curve: 25728/30000 neighbours accepted (25728 candidates, 733 s)
+12:49:10 INFO curve: 26880/30000 neighbours accepted (26880 candidates, 766 s)
+12:49:41 INFO curve: 27648/30000 neighbours accepted (27648 candidates, 796 s)
+12:50:14 INFO curve: 28608/30000 neighbours accepted (28608 candidates, 830 s)
+12:50:47 INFO curve: 29184/30000 neighbours accepted (29184 candidates, 862 s)
+12:51:15 INFO support set: size-proportional, 30000 neighbours (curve) done in 890.3 s
+12:51:15 INFO witness search, 4000 neighbours ...
+12:51:19 INFO witness search, 4000 neighbours done in 4.4 s
+12:51:19 INFO support set: size-proportional, 1000 neighbours ...
+12:51:55 INFO size-proportional: 576/1000 neighbours accepted (576 candidates, 36 s)
+12:51:59 INFO support set: size-proportional, 1000 neighbours done in 39.7 s
+12:51:59 INFO support set: readership-weighted, 1000 neighbours ...
+12:56:27 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 268 s)
+13:00:37 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 518 s)
+13:02:56 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 657 s)
+13:05:22 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 803 s)
+13:08:10 INFO readership-weighted: 960/1000 neighbours accepted (960 candidates, 970 s)
+13:09:02 INFO readership-weighted: 1000/1000 neighbours accepted (1000 candidates, 1023 s)
+13:09:02 INFO support set: readership-weighted, 1000 neighbours done in 1023.3 s
+13:09:02 INFO cover structure ...
+13:09:07 INFO cover structure done in 4.5 s
+13:09:07 INFO fit, freeze, and evaluate runs ...
+13:10:19 INFO fit, freeze, and evaluate runs: 7 of 40 tasks done (60 s)
+13:11:19 INFO fit, freeze, and evaluate runs: 39 of 40 tasks done (121 s)
+13:11:27 INFO fit, freeze, and evaluate runs done in 139.3 s
+13:11:30 INFO ablation 3/30: add_C04_demand (demand=shared)
+13:11:30 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:11:30 INFO prepare: already complete
+13:11:35 INFO main market: cid 474, 222 assets, 2047 verified pairs
+13:11:35 INFO base fingerprints ...
+13:11:40 INFO base fingerprints done in 4.3 s
+13:11:40 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:11:40 INFO curve: reused the identical draw from the ablation sample cache
+13:11:40 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:11:40 INFO witness search, 4000 neighbours ...
+13:11:40 INFO witness: reused the identical draw from the ablation sample cache
+13:11:40 INFO witness search, 4000 neighbours done in 0.0 s
+13:11:40 INFO support set: size-proportional, 1000 neighbours ...
+13:11:40 INFO size: reused the identical draw from the ablation sample cache
+13:11:40 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:11:40 INFO support set: readership-weighted, 1000 neighbours ...
+13:11:40 INFO readership: reused the identical draw from the ablation sample cache
+13:11:40 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:11:40 INFO cover structure ...
+13:11:45 INFO cover structure done in 5.2 s
+13:11:45 INFO fit, freeze, and evaluate runs ...
+13:13:10 INFO fit, freeze, and evaluate runs: 1 of 20 tasks done (69 s)
+13:13:47 INFO fit, freeze, and evaluate runs done in 121.8 s
+13:13:54 INFO ablation 4/30: drop_C04_demand (demand=redraw, shift_arm=False)
+13:13:54 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:13:54 INFO prepare: already complete
+13:14:02 INFO compute-metered timings: reused from the ablation sample cache
+13:14:02 INFO main market: cid 474, 222 assets, 1902 verified pairs
+13:14:02 INFO base fingerprints ...
+13:14:09 INFO base fingerprints done in 6.5 s
+13:14:09 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:14:09 INFO curve: reused the identical draw from the ablation sample cache
+13:14:09 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:14:09 INFO witness search, 4000 neighbours ...
+13:14:09 INFO witness: reused the identical draw from the ablation sample cache
+13:14:09 INFO witness search, 4000 neighbours done in 0.0 s
+13:14:09 INFO support set: size-proportional, 1000 neighbours ...
+13:14:09 INFO size: reused the identical draw from the ablation sample cache
+13:14:09 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:14:09 INFO support set: readership-weighted, 1000 neighbours ...
+13:14:09 INFO readership: reused the identical draw from the ablation sample cache
+13:14:09 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:14:09 INFO cover structure ...
+13:14:17 INFO cover structure done in 8.0 s
+13:14:17 INFO fit, freeze, and evaluate runs ...
+13:15:38 INFO fit, freeze, and evaluate runs: 1 of 20 tasks done (65 s)
+13:16:07 INFO fit, freeze, and evaluate runs done in 109.5 s
+13:16:11 INFO ablation 5/30: add_C05_fit (fit=breakpoints)
+13:16:11 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:16:11 INFO prepare: already complete
+13:16:18 INFO main market: cid 474, 222 assets, 2047 verified pairs
+13:16:19 INFO base fingerprints ...
+13:16:25 INFO base fingerprints done in 6.2 s
+13:16:25 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:16:25 INFO curve: reused the identical draw from the ablation sample cache
+13:16:25 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:16:25 INFO witness search, 4000 neighbours ...
+13:16:25 INFO witness: reused the identical draw from the ablation sample cache
+13:16:25 INFO witness search, 4000 neighbours done in 0.0 s
+13:16:25 INFO support set: size-proportional, 1000 neighbours ...
+13:16:25 INFO size: reused the identical draw from the ablation sample cache
+13:16:25 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:16:25 INFO support set: readership-weighted, 1000 neighbours ...
+13:16:25 INFO readership: reused the identical draw from the ablation sample cache
+13:16:25 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:16:25 INFO cover structure ...
+13:16:30 INFO cover structure done in 5.3 s
+13:16:30 INFO fit, freeze, and evaluate runs ...
+13:17:46 INFO fit, freeze, and evaluate runs: 10 of 20 tasks done (60 s)
+13:18:08 INFO fit, freeze, and evaluate runs done in 98.1 s
+13:18:11 INFO ablation 6/30: drop_C05_fit (fit=grid60)
+13:18:11 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:18:11 INFO prepare: already complete
+13:18:17 INFO compute-metered timings: reused from the ablation sample cache
+13:18:17 INFO main market: cid 474, 222 assets, 1902 verified pairs
+13:18:17 INFO base fingerprints ...
+13:18:22 INFO base fingerprints done in 5.0 s
+13:18:22 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:18:22 INFO curve: reused the identical draw from the ablation sample cache
+13:18:22 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:18:22 INFO witness search, 4000 neighbours ...
+13:18:22 INFO witness: reused the identical draw from the ablation sample cache
+13:18:22 INFO witness search, 4000 neighbours done in 0.0 s
+13:18:22 INFO support set: size-proportional, 1000 neighbours ...
+13:18:22 INFO size: reused the identical draw from the ablation sample cache
+13:18:22 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:18:22 INFO support set: readership-weighted, 1000 neighbours ...
+13:18:22 INFO readership: reused the identical draw from the ablation sample cache
+13:18:22 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:18:22 INFO cover structure ...
+13:18:28 INFO cover structure done in 5.2 s
+13:18:28 INFO fit, freeze, and evaluate runs ...
+13:19:45 INFO fit, freeze, and evaluate runs: 1 of 40 tasks done (61 s)
+13:20:49 INFO fit, freeze, and evaluate runs done in 140.7 s
+13:20:51 INFO ablation 7/30: add_C06_entropy (entropy=exact)
+13:20:52 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:20:52 INFO prepare: already complete
+13:20:57 INFO main market: cid 474, 222 assets, 2047 verified pairs
+13:20:58 INFO base fingerprints ...
+13:21:03 INFO base fingerprints done in 5.0 s
+13:21:03 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:21:03 INFO curve: reused the identical draw from the ablation sample cache
+13:21:03 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:21:03 INFO witness search, 4000 neighbours ...
+13:21:03 INFO witness: reused the identical draw from the ablation sample cache
+13:21:03 INFO witness search, 4000 neighbours done in 0.0 s
+13:21:03 INFO support set: size-proportional, 1000 neighbours ...
+13:21:03 INFO size: reused the identical draw from the ablation sample cache
+13:21:03 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:21:03 INFO support set: readership-weighted, 1000 neighbours ...
+13:22:39 INFO readership-weighted: 137/1000 neighbours accepted (192 candidates, 96 s)
+13:24:27 INFO readership-weighted: 278/1000 neighbours accepted (384 candidates, 205 s)
+13:26:00 INFO readership-weighted: 420/1000 neighbours accepted (576 candidates, 297 s)
+13:27:31 INFO readership-weighted: 559/1000 neighbours accepted (768 candidates, 389 s)
+13:28:48 INFO readership-weighted: 692/1000 neighbours accepted (960 candidates, 466 s)
+13:30:21 INFO readership-weighted: 824/1000 neighbours accepted (1152 candidates, 559 s)
+13:32:07 INFO readership-weighted: 961/1000 neighbours accepted (1344 candidates, 664 s)
+13:32:45 INFO readership-weighted: 1000/1000 neighbours accepted (1391 candidates, 702 s)
+13:32:45 INFO support set: readership-weighted, 1000 neighbours done in 702.1 s
+13:32:45 INFO cover structure ...
+13:32:49 INFO cover structure done in 4.5 s
+13:32:49 INFO fit, freeze, and evaluate runs ...
+13:34:01 INFO fit, freeze, and evaluate runs: 13 of 20 tasks done (60 s)
+13:34:08 INFO fit, freeze, and evaluate runs done in 78.4 s
+13:34:10 INFO ablation 8/30: drop_C06_entropy (entropy=singleton)
+13:34:10 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:34:10 INFO prepare: already complete
+13:34:15 INFO compute-metered timings: reused from the ablation sample cache
+13:34:15 INFO main market: cid 474, 222 assets, 1902 verified pairs
+13:34:15 INFO base fingerprints ...
+13:34:19 INFO base fingerprints done in 4.2 s
+13:34:19 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:34:19 INFO curve: reused the identical draw from the ablation sample cache
+13:34:19 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:34:19 INFO witness search, 4000 neighbours ...
+13:34:19 INFO witness: reused the identical draw from the ablation sample cache
+13:34:19 INFO witness search, 4000 neighbours done in 0.0 s
+13:34:19 INFO support set: size-proportional, 1000 neighbours ...
+13:34:19 INFO size: reused the identical draw from the ablation sample cache
+13:34:19 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:34:19 INFO support set: readership-weighted, 1000 neighbours ...
+13:36:27 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 127 s)
+13:39:03 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 283 s)
+13:41:31 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 432 s)
+13:44:22 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 603 s)
+13:47:15 INFO readership-weighted: 960/1000 neighbours accepted (960 candidates, 775 s)
+13:48:02 INFO readership-weighted: 1000/1000 neighbours accepted (1000 candidates, 822 s)
+13:48:02 INFO support set: readership-weighted, 1000 neighbours done in 822.5 s
+13:48:02 INFO cover structure ...
+13:48:06 INFO cover structure done in 4.6 s
+13:48:07 INFO fit, freeze, and evaluate runs ...
+13:49:22 INFO fit, freeze, and evaluate runs: 12 of 40 tasks done (63 s)
+13:49:57 INFO fit, freeze, and evaluate runs done in 110.6 s
+13:50:00 INFO ablation 9/30: add_C07_selection (selection=predicate)
+13:50:00 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:50:00 INFO prepare: already complete
+13:50:06 INFO main market: cid 474, 222 assets, 1902 verified pairs
+13:50:06 INFO base fingerprints ...
+13:50:11 INFO base fingerprints done in 4.6 s
+13:50:11 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:50:11 INFO curve: reused the identical draw from the ablation sample cache
+13:50:11 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:50:11 INFO witness search, 4000 neighbours ...
+13:50:11 INFO witness: reused the identical draw from the ablation sample cache
+13:50:11 INFO witness search, 4000 neighbours done in 0.0 s
+13:50:11 INFO support set: size-proportional, 1000 neighbours ...
+13:50:11 INFO size: reused the identical draw from the ablation sample cache
+13:50:11 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:50:11 INFO support set: readership-weighted, 1000 neighbours ...
+13:50:11 INFO readership: reused the identical draw from the ablation sample cache
+13:50:11 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:50:11 INFO cover structure ...
+13:50:15 INFO cover structure done in 4.4 s
+13:50:15 INFO fit, freeze, and evaluate runs ...
+13:51:39 INFO fit, freeze, and evaluate runs: 1 of 20 tasks done (72 s)
+13:52:10 INFO fit, freeze, and evaluate runs done in 114.5 s
+13:52:19 INFO ablation 10/30: drop_C07_selection (selection=value_set)
+13:52:19 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:52:19 INFO prepare: already complete
+13:52:29 INFO compute-metered timings: reused from the ablation sample cache
+13:52:29 INFO main market: cid 474, 222 assets, 2047 verified pairs
+13:52:29 INFO base fingerprints ...
+13:52:34 INFO base fingerprints done in 4.9 s
+13:52:34 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:52:34 INFO curve: reused the identical draw from the ablation sample cache
+13:52:34 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:52:34 INFO witness search, 4000 neighbours ...
+13:52:34 INFO witness: reused the identical draw from the ablation sample cache
+13:52:34 INFO witness search, 4000 neighbours done in 0.0 s
+13:52:34 INFO support set: size-proportional, 1000 neighbours ...
+13:52:34 INFO size: reused the identical draw from the ablation sample cache
+13:52:34 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:52:34 INFO support set: readership-weighted, 1000 neighbours ...
+13:52:34 INFO readership: reused the identical draw from the ablation sample cache
+13:52:34 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:52:34 INFO cover structure ...
+13:52:39 INFO cover structure done in 4.9 s
+13:52:40 INFO fit, freeze, and evaluate runs ...
+13:54:00 INFO fit, freeze, and evaluate runs: 9 of 40 tasks done (60 s)
+13:54:55 INFO fit, freeze, and evaluate runs done in 135.6 s
+13:54:58 INFO ablation 11/30: add_C09_querymarket (querymarket=cover)
+13:54:58 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:54:58 INFO prepare: already complete
+13:55:03 INFO main market: cid 474, 222 assets, 2047 verified pairs
+13:55:04 INFO base fingerprints ...
+13:55:08 INFO base fingerprints done in 4.6 s
+13:55:08 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:55:08 INFO curve: reused the identical draw from the ablation sample cache
+13:55:08 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:55:08 INFO witness search, 4000 neighbours ...
+13:55:08 INFO witness: reused the identical draw from the ablation sample cache
+13:55:08 INFO witness search, 4000 neighbours done in 0.0 s
+13:55:08 INFO support set: size-proportional, 1000 neighbours ...
+13:55:08 INFO size: reused the identical draw from the ablation sample cache
+13:55:08 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:55:08 INFO support set: readership-weighted, 1000 neighbours ...
+13:55:08 INFO readership: reused the identical draw from the ablation sample cache
+13:55:08 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:55:08 INFO cover structure ...
+13:55:13 INFO cover structure done in 4.6 s
+13:55:13 INFO fit, freeze, and evaluate runs ...
+13:56:28 INFO fit, freeze, and evaluate runs: 2 of 20 tasks done (60 s)
+13:56:52 INFO fit, freeze, and evaluate runs done in 98.6 s
+13:56:54 INFO ablation 12/30: drop_C09_querymarket (querymarket=single_predecessor)
+13:56:54 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:56:54 INFO prepare: already complete
+13:57:00 INFO compute-metered timings: reused from the ablation sample cache
+13:57:00 INFO main market: cid 474, 222 assets, 1902 verified pairs
+13:57:00 INFO base fingerprints ...
+13:57:05 INFO base fingerprints done in 4.4 s
+13:57:05 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:57:05 INFO curve: reused the identical draw from the ablation sample cache
+13:57:05 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:57:05 INFO witness search, 4000 neighbours ...
+13:57:05 INFO witness: reused the identical draw from the ablation sample cache
+13:57:05 INFO witness search, 4000 neighbours done in 0.0 s
+13:57:05 INFO support set: size-proportional, 1000 neighbours ...
+13:57:05 INFO size: reused the identical draw from the ablation sample cache
+13:57:05 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:57:05 INFO support set: readership-weighted, 1000 neighbours ...
+13:57:05 INFO readership: reused the identical draw from the ablation sample cache
+13:57:05 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:57:05 INFO cover structure ...
+13:57:09 INFO cover structure done in 4.1 s
+13:57:09 INFO fit, freeze, and evaluate runs ...
+13:58:23 INFO fit, freeze, and evaluate runs: 1 of 40 tasks done (64 s)
+13:59:21 INFO fit, freeze, and evaluate runs done in 131.8 s
+13:59:26 INFO ablation 13/30: add_C11_answer_cells (answer_cells=rows_x_cols)
+13:59:26 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+13:59:26 INFO prepare: already complete
+13:59:38 INFO main market: cid 474, 222 assets, 2047 verified pairs
+13:59:39 INFO base fingerprints ...
+13:59:43 INFO base fingerprints done in 4.6 s
+13:59:43 INFO support set: size-proportional, 30000 neighbours (curve) ...
+13:59:43 INFO curve: reused the identical draw from the ablation sample cache
+13:59:43 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+13:59:43 INFO witness search, 4000 neighbours ...
+13:59:43 INFO witness: reused the identical draw from the ablation sample cache
+13:59:43 INFO witness search, 4000 neighbours done in 0.0 s
+13:59:43 INFO support set: size-proportional, 1000 neighbours ...
+13:59:43 INFO size: reused the identical draw from the ablation sample cache
+13:59:43 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+13:59:43 INFO support set: readership-weighted, 1000 neighbours ...
+13:59:43 INFO readership: reused the identical draw from the ablation sample cache
+13:59:43 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+13:59:43 INFO cover structure ...
+13:59:48 INFO cover structure done in 4.4 s
+13:59:48 INFO fit, freeze, and evaluate runs ...
+14:01:02 INFO fit, freeze, and evaluate runs done in 74.2 s
+14:01:05 INFO ablation 14/30: drop_C11_answer_cells (answer_cells=rows)
+14:01:05 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+14:01:05 INFO prepare: already complete
+14:01:11 INFO compute-metered timings: reused from the ablation sample cache
+14:01:11 INFO main market: cid 474, 222 assets, 1902 verified pairs
+14:01:11 INFO base fingerprints ...
+14:01:16 INFO base fingerprints done in 5.6 s
+14:01:16 INFO support set: size-proportional, 30000 neighbours (curve) ...
+14:01:16 INFO curve: reused the identical draw from the ablation sample cache
+14:01:16 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+14:01:16 INFO witness search, 4000 neighbours ...
+14:01:16 INFO witness: reused the identical draw from the ablation sample cache
+14:01:16 INFO witness search, 4000 neighbours done in 0.0 s
+14:01:16 INFO support set: size-proportional, 1000 neighbours ...
+14:01:16 INFO size: reused the identical draw from the ablation sample cache
+14:01:16 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+14:01:16 INFO support set: readership-weighted, 1000 neighbours ...
+14:01:16 INFO readership: reused the identical draw from the ablation sample cache
+14:01:16 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+14:01:16 INFO cover structure ...
+14:01:23 INFO cover structure done in 6.4 s
+14:01:23 INFO fit, freeze, and evaluate runs ...
+14:02:40 INFO fit, freeze, and evaluate runs: 12 of 40 tasks done (64 s)
+14:03:31 INFO fit, freeze, and evaluate runs done in 128.3 s
+14:03:35 INFO ablation 15/30: add_C12_row_sampling (row_sampling=any_row)
+14:03:35 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+14:03:35 INFO prepare: already complete
+14:03:42 INFO main market: cid 474, 222 assets, 2047 verified pairs
+14:03:42 INFO base fingerprints ...
+14:03:48 INFO base fingerprints done in 5.5 s
+14:03:48 INFO support set: size-proportional, 30000 neighbours (curve) ...
+14:04:18 INFO curve: 4541/30000 neighbours accepted (4992 candidates, 30 s)
+14:04:49 INFO curve: 8334/30000 neighbours accepted (9216 candidates, 61 s)
+14:05:20 INFO curve: 12169/30000 neighbours accepted (13440 candidates, 92 s)
+14:05:53 INFO curve: 18309/30000 neighbours accepted (20160 candidates, 125 s)
+14:06:24 INFO curve: 21430/30000 neighbours accepted (23616 candidates, 156 s)
+14:06:55 INFO curve: 26332/30000 neighbours accepted (28992 candidates, 187 s)
+14:07:18 INFO support set: size-proportional, 30000 neighbours (curve) done in 210.2 s
+14:07:18 INFO witness search, 4000 neighbours ...
+14:07:20 INFO witness search, 4000 neighbours done in 1.7 s
+14:07:20 INFO support set: size-proportional, 1000 neighbours ...
+14:07:26 INFO support set: size-proportional, 1000 neighbours done in 6.1 s
+14:07:26 INFO support set: readership-weighted, 1000 neighbours ...
+14:08:40 INFO readership-weighted: 137/1000 neighbours accepted (192 candidates, 74 s)
+14:10:07 INFO readership-weighted: 278/1000 neighbours accepted (384 candidates, 161 s)
+14:11:32 INFO readership-weighted: 420/1000 neighbours accepted (576 candidates, 246 s)
+14:12:55 INFO readership-weighted: 559/1000 neighbours accepted (768 candidates, 329 s)
+14:14:09 INFO readership-weighted: 692/1000 neighbours accepted (960 candidates, 403 s)
+14:15:38 INFO readership-weighted: 825/1000 neighbours accepted (1152 candidates, 492 s)
+14:17:15 INFO readership-weighted: 963/1000 neighbours accepted (1344 candidates, 589 s)
+14:17:57 INFO readership-weighted: 1000/1000 neighbours accepted (1389 candidates, 631 s)
+14:17:57 INFO support set: readership-weighted, 1000 neighbours done in 630.6 s
+14:17:57 INFO cover structure ...
+14:18:02 INFO cover structure done in 5.8 s
+14:18:03 INFO fit, freeze, and evaluate runs ...
+14:19:24 INFO fit, freeze, and evaluate runs: 12 of 20 tasks done (68 s)
+14:19:32 INFO fit, freeze, and evaluate runs done in 89.9 s
+14:19:36 INFO ablation 16/30: drop_C12_row_sampling (row_sampling=unique_only)
+14:19:36 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+14:19:36 INFO prepare: already complete
+14:19:41 INFO compute-metered timings: reused from the ablation sample cache
+14:19:41 INFO main market: cid 474, 222 assets, 1902 verified pairs
+14:19:41 INFO base fingerprints ...
+14:19:46 INFO base fingerprints done in 4.5 s
+14:19:46 INFO support set: size-proportional, 30000 neighbours (curve) ...
+14:20:17 INFO curve: 1536/30000 neighbours accepted (1536 candidates, 31 s)
+14:20:48 INFO curve: 3072/30000 neighbours accepted (3072 candidates, 62 s)
+14:21:22 INFO curve: 5376/30000 neighbours accepted (5376 candidates, 96 s)
+14:21:55 INFO curve: 7296/30000 neighbours accepted (7296 candidates, 129 s)
+14:22:25 INFO curve: 8832/30000 neighbours accepted (8832 candidates, 160 s)
+14:23:02 INFO curve: 10752/30000 neighbours accepted (10752 candidates, 196 s)
+14:23:35 INFO curve: 12480/30000 neighbours accepted (12480 candidates, 229 s)
+14:24:10 INFO curve: 14592/30000 neighbours accepted (14592 candidates, 265 s)
+14:24:44 INFO curve: 17280/30000 neighbours accepted (17280 candidates, 298 s)
+14:25:14 INFO curve: 19008/30000 neighbours accepted (19008 candidates, 328 s)
+14:25:47 INFO curve: 21696/30000 neighbours accepted (21696 candidates, 361 s)
+14:26:20 INFO curve: 23040/30000 neighbours accepted (23040 candidates, 394 s)
+14:26:52 INFO curve: 24384/30000 neighbours accepted (24384 candidates, 426 s)
+14:27:23 INFO curve: 26304/30000 neighbours accepted (26304 candidates, 457 s)
+14:27:56 INFO curve: 28608/30000 neighbours accepted (28608 candidates, 490 s)
+14:28:22 INFO support set: size-proportional, 30000 neighbours (curve) done in 516.4 s
+14:28:22 INFO witness search, 4000 neighbours ...
+14:28:24 INFO witness search, 4000 neighbours done in 1.7 s
+14:28:24 INFO support set: size-proportional, 1000 neighbours ...
+14:28:42 INFO support set: size-proportional, 1000 neighbours done in 17.9 s
+14:28:42 INFO support set: readership-weighted, 1000 neighbours ...
+14:31:08 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 146 s)
+14:33:58 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 316 s)
+14:36:25 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 463 s)
+14:38:58 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 616 s)
+14:41:34 INFO readership-weighted: 959/1000 neighbours accepted (960 candidates, 772 s)
+14:42:24 INFO readership-weighted: 1000/1000 neighbours accepted (1002 candidates, 822 s)
+14:42:24 INFO support set: readership-weighted, 1000 neighbours done in 822.0 s
+14:42:24 INFO cover structure ...
+14:42:28 INFO cover structure done in 4.4 s
+14:42:29 INFO fit, freeze, and evaluate runs ...
+14:43:39 INFO fit, freeze, and evaluate runs: 12 of 40 tasks done (61 s)
+14:44:19 INFO fit, freeze, and evaluate runs done in 110.1 s
+14:44:21 INFO ablation 17/30: add_alias_resolve (alias_delete=resolve)
+14:44:21 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+14:44:21 INFO prepare: already complete
+14:44:27 INFO main market: cid 474, 222 assets, 2047 verified pairs
+14:44:27 INFO base fingerprints ...
+14:44:32 INFO base fingerprints done in 4.7 s
+14:44:32 INFO support set: size-proportional, 30000 neighbours (curve) ...
+14:44:32 INFO curve: reused the identical draw from the ablation sample cache
+14:44:32 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+14:44:32 INFO witness search, 4000 neighbours ...
+14:44:34 INFO witness search, 4000 neighbours done in 2.3 s
+14:44:34 INFO support set: size-proportional, 1000 neighbours ...
+14:44:34 INFO size: reused the identical draw from the ablation sample cache
+14:44:34 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+14:44:34 INFO support set: readership-weighted, 1000 neighbours ...
+14:46:44 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 130 s)
+14:49:16 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 282 s)
+14:51:30 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 416 s)
+14:53:43 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 548 s)
+14:56:02 INFO readership-weighted: 959/1000 neighbours accepted (960 candidates, 688 s)
+14:56:49 INFO readership-weighted: 1000/1000 neighbours accepted (1002 candidates, 734 s)
+14:56:49 INFO support set: readership-weighted, 1000 neighbours done in 734.4 s
+14:56:49 INFO cover structure ...
+14:56:53 INFO cover structure done in 4.4 s
+14:56:53 INFO fit, freeze, and evaluate runs ...
+14:58:05 INFO fit, freeze, and evaluate runs: 15 of 20 tasks done (60 s)
+14:58:10 INFO fit, freeze, and evaluate runs done in 76.6 s
+14:58:12 INFO ablation 18/30: drop_alias_resolve (alias_delete=skip)
+14:58:12 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+14:58:12 INFO prepare: already complete
+14:58:16 INFO compute-metered timings: reused from the ablation sample cache
+14:58:16 INFO main market: cid 474, 222 assets, 1902 verified pairs
+14:58:16 INFO base fingerprints ...
+14:58:20 INFO base fingerprints done in 3.9 s
+14:58:20 INFO support set: size-proportional, 30000 neighbours (curve) ...
+14:58:20 INFO curve: reused the identical draw from the ablation sample cache
+14:58:20 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.1 s
+14:58:20 INFO witness search, 4000 neighbours ...
+14:58:22 INFO witness search, 4000 neighbours done in 2.2 s
+14:58:22 INFO support set: size-proportional, 1000 neighbours ...
+14:58:23 INFO size: reused the identical draw from the ablation sample cache
+14:58:23 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+14:58:23 INFO support set: readership-weighted, 1000 neighbours ...
+14:59:33 INFO readership-weighted: 137/1000 neighbours accepted (192 candidates, 71 s)
+15:00:59 INFO readership-weighted: 278/1000 neighbours accepted (384 candidates, 157 s)
+15:02:24 INFO readership-weighted: 420/1000 neighbours accepted (576 candidates, 241 s)
+15:03:42 INFO readership-weighted: 559/1000 neighbours accepted (768 candidates, 320 s)
+15:04:53 INFO readership-weighted: 692/1000 neighbours accepted (960 candidates, 390 s)
+15:06:16 INFO readership-weighted: 825/1000 neighbours accepted (1152 candidates, 473 s)
+15:07:44 INFO readership-weighted: 963/1000 neighbours accepted (1344 candidates, 562 s)
+15:08:18 INFO readership-weighted: 1000/1000 neighbours accepted (1389 candidates, 595 s)
+15:08:18 INFO support set: readership-weighted, 1000 neighbours done in 595.5 s
+15:08:18 INFO cover structure ...
+15:08:22 INFO cover structure done in 4.3 s
+15:08:23 INFO fit, freeze, and evaluate runs ...
+15:09:34 INFO fit, freeze, and evaluate runs: 15 of 40 tasks done (60 s)
+15:10:09 INFO fit, freeze, and evaluate runs done in 106.6 s
+15:10:12 INFO ablation 19/30: add_remove_all_falsified (remove_falsified=all)
+15:10:12 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:10:12 INFO prepare: already complete
+15:10:17 INFO main market: cid 474, 222 assets, 2047 verified pairs
+15:10:17 INFO base fingerprints ...
+15:10:21 INFO base fingerprints done in 3.9 s
+15:10:21 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:10:21 INFO curve: reused the identical draw from the ablation sample cache
+15:10:21 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:10:21 INFO witness search, 4000 neighbours ...
+15:10:21 INFO witness: reused the identical draw from the ablation sample cache
+15:10:21 INFO witness search, 4000 neighbours done in 0.0 s
+15:10:21 INFO support set: size-proportional, 1000 neighbours ...
+15:10:21 INFO size: reused the identical draw from the ablation sample cache
+15:10:21 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:10:21 INFO support set: readership-weighted, 1000 neighbours ...
+15:10:21 INFO readership: reused the identical draw from the ablation sample cache
+15:10:21 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:10:21 INFO cover structure ...
+15:10:25 INFO cover structure done in 4.2 s
+15:10:25 INFO fit, freeze, and evaluate runs ...
+15:11:38 INFO fit, freeze, and evaluate runs done in 72.6 s
+15:11:39 INFO ablation 20/30: drop_remove_all_falsified (remove_falsified=curve)
+15:11:39 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:11:39 INFO prepare: already complete
+15:11:44 INFO compute-metered timings: reused from the ablation sample cache
+15:11:44 INFO main market: cid 474, 222 assets, 1902 verified pairs
+15:11:45 INFO base fingerprints ...
+15:11:49 INFO base fingerprints done in 4.0 s
+15:11:49 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:11:49 INFO curve: reused the identical draw from the ablation sample cache
+15:11:49 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:11:49 INFO witness search, 4000 neighbours ...
+15:11:49 INFO witness: reused the identical draw from the ablation sample cache
+15:11:49 INFO witness search, 4000 neighbours done in 0.0 s
+15:11:49 INFO support set: size-proportional, 1000 neighbours ...
+15:11:49 INFO size: reused the identical draw from the ablation sample cache
+15:11:49 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:11:49 INFO support set: readership-weighted, 1000 neighbours ...
+15:11:49 INFO readership: reused the identical draw from the ablation sample cache
+15:11:49 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:11:49 INFO cover structure ...
+15:11:53 INFO cover structure done in 4.2 s
+15:11:53 INFO fit, freeze, and evaluate runs ...
+15:13:03 INFO fit, freeze, and evaluate runs: 18 of 40 tasks done (60 s)
+15:13:34 INFO fit, freeze, and evaluate runs done in 101.0 s
+15:13:36 INFO ablation 21/30: add_metered_x3 (metered_repeats=3)
+15:13:36 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:13:36 INFO prepare: already complete
+15:13:41 INFO compute-metered timings: reused from the ablation sample cache
+15:13:41 INFO main market: cid 474, 222 assets, 2047 verified pairs
+15:13:41 INFO base fingerprints ...
+15:13:45 INFO base fingerprints done in 3.9 s
+15:13:45 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:13:45 INFO curve: reused the identical draw from the ablation sample cache
+15:13:45 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:13:45 INFO witness search, 4000 neighbours ...
+15:13:45 INFO witness: reused the identical draw from the ablation sample cache
+15:13:45 INFO witness search, 4000 neighbours done in 0.0 s
+15:13:45 INFO support set: size-proportional, 1000 neighbours ...
+15:13:45 INFO size: reused the identical draw from the ablation sample cache
+15:13:45 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:13:45 INFO support set: readership-weighted, 1000 neighbours ...
+15:13:45 INFO readership: reused the identical draw from the ablation sample cache
+15:13:45 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:13:45 INFO cover structure ...
+15:13:49 INFO cover structure done in 4.1 s
+15:13:49 INFO fit, freeze, and evaluate runs ...
+15:14:59 INFO fit, freeze, and evaluate runs done in 69.9 s
+15:15:00 INFO ablation 22/30: drop_metered_x3 (metered_repeats=1)
+15:15:00 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:15:00 INFO prepare: already complete
+15:15:06 INFO main market: cid 474, 222 assets, 1902 verified pairs
+15:15:06 INFO base fingerprints ...
+15:15:10 INFO base fingerprints done in 4.0 s
+15:15:10 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:15:10 INFO curve: reused the identical draw from the ablation sample cache
+15:15:10 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:15:10 INFO witness search, 4000 neighbours ...
+15:15:10 INFO witness: reused the identical draw from the ablation sample cache
+15:15:10 INFO witness search, 4000 neighbours done in 0.0 s
+15:15:10 INFO support set: size-proportional, 1000 neighbours ...
+15:15:10 INFO size: reused the identical draw from the ablation sample cache
+15:15:10 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:15:10 INFO support set: readership-weighted, 1000 neighbours ...
+15:15:10 INFO readership: reused the identical draw from the ablation sample cache
+15:15:10 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:15:10 INFO cover structure ...
+15:15:14 INFO cover structure done in 4.1 s
+15:15:14 INFO fit, freeze, and evaluate runs ...
+15:16:24 INFO fit, freeze, and evaluate runs: 15 of 40 tasks done (60 s)
+15:16:57 INFO fit, freeze, and evaluate runs done in 103.1 s
+15:16:59 INFO ablation 23/30: add_witness_seed (witness_seed=12)
+15:16:59 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:16:59 INFO prepare: already complete
+15:17:04 INFO main market: cid 474, 222 assets, 2047 verified pairs
+15:17:04 INFO base fingerprints ...
+15:17:08 INFO base fingerprints done in 3.8 s
+15:17:08 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:17:08 INFO curve: reused the identical draw from the ablation sample cache
+15:17:08 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:17:08 INFO witness search, 4000 neighbours ...
+15:17:10 INFO witness search, 4000 neighbours done in 2.0 s
+15:17:10 INFO support set: size-proportional, 1000 neighbours ...
+15:17:10 INFO size: reused the identical draw from the ablation sample cache
+15:17:10 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:17:10 INFO support set: readership-weighted, 1000 neighbours ...
+15:17:10 INFO readership: reused the identical draw from the ablation sample cache
+15:17:10 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:17:10 INFO cover structure ...
+15:17:14 INFO cover structure done in 4.2 s
+15:17:14 INFO fit, freeze, and evaluate runs ...
+15:18:24 INFO fit, freeze, and evaluate runs done in 70.4 s
+15:18:26 INFO ablation 24/30: drop_witness_seed (witness_seed=11)
+15:18:26 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:18:26 INFO prepare: already complete
+15:18:30 INFO compute-metered timings: reused from the ablation sample cache
+15:18:30 INFO main market: cid 474, 222 assets, 1902 verified pairs
+15:18:31 INFO base fingerprints ...
+15:18:34 INFO base fingerprints done in 3.7 s
+15:18:34 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:18:34 INFO curve: reused the identical draw from the ablation sample cache
+15:18:34 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:18:34 INFO witness search, 4000 neighbours ...
+15:18:36 INFO witness search, 4000 neighbours done in 1.5 s
+15:18:36 INFO support set: size-proportional, 1000 neighbours ...
+15:18:36 INFO size: reused the identical draw from the ablation sample cache
+15:18:36 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:18:36 INFO support set: readership-weighted, 1000 neighbours ...
+15:18:36 INFO readership: reused the identical draw from the ablation sample cache
+15:18:36 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:18:36 INFO cover structure ...
+15:18:40 INFO cover structure done in 4.0 s
+15:18:40 INFO fit, freeze, and evaluate runs ...
+15:19:51 INFO fit, freeze, and evaluate runs: 20 of 40 tasks done (60 s)
+15:20:22 INFO fit, freeze, and evaluate runs done in 102.3 s
+15:20:24 INFO ablation 25/30: add_ilp_formulation (ilp_formulation=cheaper_sources)
+15:20:24 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:20:24 INFO prepare: already complete
+15:20:29 INFO main market: cid 474, 222 assets, 2047 verified pairs
+15:20:29 INFO base fingerprints ...
+15:20:32 INFO base fingerprints done in 3.8 s
+15:20:32 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:20:32 INFO curve: reused the identical draw from the ablation sample cache
+15:20:32 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:20:32 INFO witness search, 4000 neighbours ...
+15:20:32 INFO witness: reused the identical draw from the ablation sample cache
+15:20:32 INFO witness search, 4000 neighbours done in 0.0 s
+15:20:32 INFO support set: size-proportional, 1000 neighbours ...
+15:20:32 INFO size: reused the identical draw from the ablation sample cache
+15:20:32 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:20:32 INFO support set: readership-weighted, 1000 neighbours ...
+15:20:33 INFO readership: reused the identical draw from the ablation sample cache
+15:20:33 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:20:33 INFO cover structure ...
+15:20:37 INFO cover structure done in 4.1 s
+15:20:37 INFO fit, freeze, and evaluate runs ...
+15:21:46 INFO fit, freeze, and evaluate runs done in 69.0 s
+15:21:47 INFO ablation 26/30: drop_ilp_formulation (ilp_formulation=all_sources)
+15:21:47 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:21:47 INFO prepare: already complete
+15:21:52 INFO compute-metered timings: reused from the ablation sample cache
+15:21:52 INFO main market: cid 474, 222 assets, 1902 verified pairs
+15:21:52 INFO base fingerprints ...
+15:21:56 INFO base fingerprints done in 3.9 s
+15:21:56 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:21:56 INFO curve: reused the identical draw from the ablation sample cache
+15:21:56 INFO support set: size-proportional, 30000 neighbours (curve) done in 0.0 s
+15:21:56 INFO witness search, 4000 neighbours ...
+15:21:56 INFO witness: reused the identical draw from the ablation sample cache
+15:21:56 INFO witness search, 4000 neighbours done in 0.0 s
+15:21:56 INFO support set: size-proportional, 1000 neighbours ...
+15:21:56 INFO size: reused the identical draw from the ablation sample cache
+15:21:56 INFO support set: size-proportional, 1000 neighbours done in 0.0 s
+15:21:56 INFO support set: readership-weighted, 1000 neighbours ...
+15:21:56 INFO readership: reused the identical draw from the ablation sample cache
+15:21:56 INFO support set: readership-weighted, 1000 neighbours done in 0.0 s
+15:21:56 INFO cover structure ...
+15:22:00 INFO cover structure done in 4.1 s
+15:22:00 INFO fit, freeze, and evaluate runs ...
+15:23:11 INFO fit, freeze, and evaluate runs: 19 of 40 tasks done (61 s)
+15:23:45 INFO fit, freeze, and evaluate runs done in 104.9 s
+15:23:47 INFO ablation 27/30: paper_seedset1 (curve_seed=1011, witness_seed=1011, table6_seed=1101)
+15:23:47 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:23:47 INFO prepare: already complete
+15:23:52 INFO main market: cid 474, 222 assets, 2047 verified pairs
+15:23:52 INFO base fingerprints ...
+15:23:56 INFO base fingerprints done in 3.7 s
+15:23:56 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:24:28 INFO curve: 3677/30000 neighbours accepted (4032 candidates, 33 s)
+15:25:01 INFO curve: 8491/30000 neighbours accepted (9408 candidates, 65 s)
+15:25:34 INFO curve: 13350/30000 neighbours accepted (14784 candidates, 99 s)
+15:26:07 INFO curve: 18531/30000 neighbours accepted (20544 candidates, 132 s)
+15:26:39 INFO curve: 24099/30000 neighbours accepted (26688 candidates, 164 s)
+15:27:10 INFO curve: 29161/30000 neighbours accepted (32256 candidates, 194 s)
+15:27:13 INFO support set: size-proportional, 30000 neighbours (curve) done in 197.2 s
+15:27:13 INFO witness search, 4000 neighbours ...
+15:27:15 INFO witness search, 4000 neighbours done in 1.8 s
+15:27:15 INFO support set: size-proportional, 1000 neighbours ...
+15:27:18 INFO support set: size-proportional, 1000 neighbours done in 3.2 s
+15:27:18 INFO support set: readership-weighted, 1000 neighbours ...
+15:28:19 INFO readership-weighted: 153/1000 neighbours accepted (192 candidates, 61 s)
+15:29:24 INFO readership-weighted: 291/1000 neighbours accepted (384 candidates, 126 s)
+15:30:39 INFO readership-weighted: 430/1000 neighbours accepted (576 candidates, 202 s)
+15:31:48 INFO readership-weighted: 572/1000 neighbours accepted (768 candidates, 270 s)
+15:33:02 INFO readership-weighted: 723/1000 neighbours accepted (960 candidates, 344 s)
+15:34:11 INFO readership-weighted: 859/1000 neighbours accepted (1152 candidates, 413 s)
+15:35:20 INFO readership-weighted: 998/1000 neighbours accepted (1344 candidates, 482 s)
+15:35:28 INFO support set: readership-weighted, 1000 neighbours done in 490.3 s
+15:35:28 INFO cover structure ...
+15:35:32 INFO cover structure done in 4.2 s
+15:35:32 INFO fit, freeze, and evaluate runs ...
+15:36:46 INFO fit, freeze, and evaluate runs done in 73.6 s
+15:36:48 INFO ablation 28/30: corrected_seedset1 (curve_seed=1011, witness_seed=1012, table6_seed=1101)
+15:36:48 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+15:36:48 INFO prepare: already complete
+15:36:53 INFO compute-metered timings: reused from the ablation sample cache
+15:36:53 INFO main market: cid 474, 222 assets, 1902 verified pairs
+15:36:53 INFO base fingerprints ...
+15:36:57 INFO base fingerprints done in 4.2 s
+15:36:57 INFO support set: size-proportional, 30000 neighbours (curve) ...
+15:37:27 INFO curve: 1728/30000 neighbours accepted (1728 candidates, 30 s)
+15:37:58 INFO curve: 3456/30000 neighbours accepted (3456 candidates, 61 s)
+15:38:29 INFO curve: 4992/30000 neighbours accepted (4992 candidates, 92 s)
+15:39:00 INFO curve: 6912/30000 neighbours accepted (6912 candidates, 123 s)
+15:39:32 INFO curve: 8832/30000 neighbours accepted (8832 candidates, 155 s)
+15:40:04 INFO curve: 10560/30000 neighbours accepted (10560 candidates, 187 s)
+15:40:35 INFO curve: 12864/30000 neighbours accepted (12864 candidates, 218 s)
+15:41:06 INFO curve: 14592/30000 neighbours accepted (14592 candidates, 249 s)
+15:41:40 INFO curve: 16704/30000 neighbours accepted (16704 candidates, 283 s)
+15:42:12 INFO curve: 18240/30000 neighbours accepted (18240 candidates, 315 s)
+15:42:45 INFO curve: 19776/30000 neighbours accepted (19776 candidates, 348 s)
+15:43:19 INFO curve: 21504/30000 neighbours accepted (21504 candidates, 382 s)
+15:43:49 INFO curve: 22848/30000 neighbours accepted (22848 candidates, 412 s)
+15:44:22 INFO curve: 26496/30000 neighbours accepted (26496 candidates, 445 s)
+15:44:55 INFO curve: 28608/30000 neighbours accepted (28608 candidates, 478 s)
+15:45:14 INFO support set: size-proportional, 30000 neighbours (curve) done in 497.4 s
+15:45:14 INFO witness search, 4000 neighbours ...
+15:45:16 INFO witness search, 4000 neighbours done in 1.6 s
+15:45:16 INFO support set: size-proportional, 1000 neighbours ...
+15:45:35 INFO support set: size-proportional, 1000 neighbours done in 18.5 s
+15:45:35 INFO support set: readership-weighted, 1000 neighbours ...
+15:48:03 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 149 s)
+15:51:01 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 327 s)
+15:53:32 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 477 s)
+15:56:11 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 637 s)
+15:59:03 INFO readership-weighted: 960/1000 neighbours accepted (960 candidates, 809 s)
+15:59:48 INFO readership-weighted: 1000/1000 neighbours accepted (1000 candidates, 854 s)
+15:59:48 INFO support set: readership-weighted, 1000 neighbours done in 853.6 s
+15:59:48 INFO cover structure ...
+15:59:52 INFO cover structure done in 4.2 s
+15:59:53 INFO fit, freeze, and evaluate runs ...
+16:01:03 INFO fit, freeze, and evaluate runs: 17 of 40 tasks done (60 s)
+16:01:34 INFO fit, freeze, and evaluate runs done in 101.8 s
+16:01:37 INFO ablation 29/30: paper_seedset2 (curve_seed=2011, witness_seed=2011, table6_seed=2101)
+16:01:37 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+16:01:37 INFO prepare: already complete
+16:01:41 INFO main market: cid 474, 222 assets, 2047 verified pairs
+16:01:41 INFO base fingerprints ...
+16:01:45 INFO base fingerprints done in 3.9 s
+16:01:45 INFO support set: size-proportional, 30000 neighbours (curve) ...
+16:02:18 INFO curve: 3487/30000 neighbours accepted (3840 candidates, 33 s)
+16:02:52 INFO curve: 7167/30000 neighbours accepted (7872 candidates, 67 s)
+16:03:22 INFO curve: 10811/30000 neighbours accepted (11904 candidates, 97 s)
+16:03:52 INFO curve: 16049/30000 neighbours accepted (17664 candidates, 127 s)
+16:04:23 INFO curve: 19371/30000 neighbours accepted (21312 candidates, 157 s)
+16:04:53 INFO curve: 23376/30000 neighbours accepted (25728 candidates, 188 s)
+16:05:27 INFO curve: 27736/30000 neighbours accepted (30528 candidates, 221 s)
+16:05:48 INFO support set: size-proportional, 30000 neighbours (curve) done in 243.0 s
+16:05:48 INFO witness search, 4000 neighbours ...
+16:05:50 INFO witness search, 4000 neighbours done in 2.2 s
+16:05:50 INFO support set: size-proportional, 1000 neighbours ...
+16:06:02 INFO support set: size-proportional, 1000 neighbours done in 12.0 s
+16:06:02 INFO support set: readership-weighted, 1000 neighbours ...
+16:07:37 INFO readership-weighted: 146/1000 neighbours accepted (192 candidates, 95 s)
+16:09:16 INFO readership-weighted: 287/1000 neighbours accepted (384 candidates, 194 s)
+16:10:47 INFO readership-weighted: 433/1000 neighbours accepted (576 candidates, 284 s)
+16:12:37 INFO readership-weighted: 575/1000 neighbours accepted (768 candidates, 394 s)
+16:14:13 INFO readership-weighted: 725/1000 neighbours accepted (960 candidates, 491 s)
+16:15:44 INFO readership-weighted: 870/1000 neighbours accepted (1152 candidates, 582 s)
+16:17:14 INFO readership-weighted: 1000/1000 neighbours accepted (1326 candidates, 671 s)
+16:17:14 INFO support set: readership-weighted, 1000 neighbours done in 671.3 s
+16:17:14 INFO cover structure ...
+16:17:18 INFO cover structure done in 4.6 s
+16:17:18 INFO fit, freeze, and evaluate runs ...
+16:18:31 INFO fit, freeze, and evaluate runs done in 72.7 s
+16:18:33 INFO ablation 30/30: corrected_seedset2 (curve_seed=2011, witness_seed=2012, table6_seed=2101)
+16:18:33 INFO release present and checked earlier (data\sqlshare_data_release1.zip)
+16:18:33 INFO prepare: already complete
+16:18:39 INFO compute-metered timings: reused from the ablation sample cache
+16:18:39 INFO main market: cid 474, 222 assets, 1902 verified pairs
+16:18:39 INFO base fingerprints ...
+16:18:43 INFO base fingerprints done in 4.2 s
+16:18:43 INFO support set: size-proportional, 30000 neighbours (curve) ...
+16:19:14 INFO curve: 1728/30000 neighbours accepted (1728 candidates, 31 s)
+16:19:44 INFO curve: 3456/30000 neighbours accepted (3456 candidates, 61 s)
+16:20:16 INFO curve: 5376/30000 neighbours accepted (5376 candidates, 93 s)
+16:20:48 INFO curve: 7488/30000 neighbours accepted (7488 candidates, 125 s)
+16:21:22 INFO curve: 9024/30000 neighbours accepted (9024 candidates, 159 s)
+16:21:52 INFO curve: 10944/30000 neighbours accepted (10944 candidates, 189 s)
+16:22:27 INFO curve: 12480/30000 neighbours accepted (12480 candidates, 224 s)
+16:23:01 INFO curve: 14592/30000 neighbours accepted (14592 candidates, 258 s)
+16:23:35 INFO curve: 16512/30000 neighbours accepted (16512 candidates, 292 s)
+16:24:10 INFO curve: 18624/30000 neighbours accepted (18624 candidates, 327 s)
+16:24:44 INFO curve: 20736/30000 neighbours accepted (20736 candidates, 360 s)
+16:25:19 INFO curve: 22272/30000 neighbours accepted (22272 candidates, 396 s)
+16:25:52 INFO curve: 23808/30000 neighbours accepted (23808 candidates, 428 s)
+16:26:22 INFO curve: 26112/30000 neighbours accepted (26112 candidates, 459 s)
+16:26:54 INFO curve: 28032/30000 neighbours accepted (28032 candidates, 491 s)
+16:27:25 INFO curve: 29760/30000 neighbours accepted (29760 candidates, 522 s)
+16:27:33 INFO support set: size-proportional, 30000 neighbours (curve) done in 529.5 s
+16:27:33 INFO witness search, 4000 neighbours ...
+16:27:35 INFO witness search, 4000 neighbours done in 2.1 s
+16:27:35 INFO support set: size-proportional, 1000 neighbours ...
+16:27:53 INFO support set: size-proportional, 1000 neighbours done in 18.2 s
+16:27:53 INFO support set: readership-weighted, 1000 neighbours ...
+16:30:28 INFO readership-weighted: 192/1000 neighbours accepted (192 candidates, 155 s)
+16:33:16 INFO readership-weighted: 384/1000 neighbours accepted (384 candidates, 323 s)
+16:35:53 INFO readership-weighted: 576/1000 neighbours accepted (576 candidates, 480 s)
+16:38:46 INFO readership-weighted: 768/1000 neighbours accepted (768 candidates, 653 s)
+16:41:25 INFO readership-weighted: 960/1000 neighbours accepted (960 candidates, 812 s)
+16:42:06 INFO readership-weighted: 1000/1000 neighbours accepted (1000 candidates, 853 s)
+16:42:06 INFO support set: readership-weighted, 1000 neighbours done in 853.0 s
+16:42:06 INFO cover structure ...
+16:42:11 INFO cover structure done in 4.5 s
+16:42:11 INFO fit, freeze, and evaluate runs ...
+16:43:23 INFO fit, freeze, and evaluate runs: 14 of 40 tasks done (61 s)
+16:43:56 INFO fit, freeze, and evaluate runs done in 105.2 s
+16:44:01 INFO ablation report: results\ablation\ABLATION.md
+16:44:01 INFO ablation end point paper against the full run: identical
+16:44:01 INFO ablation end point corrected against the full run: identical
+16:44:01 INFO finished in 268.1 min
